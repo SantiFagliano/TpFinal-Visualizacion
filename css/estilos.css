@@ -139,13 +139,9 @@
     float: left;
 }
 
-<<<<<<< HEAD
-
 @media only screen and (max-width: 1440px) {
-  .titulo_contacto {
-=======
 .titulo_contacto {
->>>>>>> develop
+
     margin-top: 1.5em;
 }
 
