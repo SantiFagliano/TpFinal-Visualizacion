@@ -139,6 +139,7 @@
   float: left;
 }
 
+
 @media only screen and (max-width: 1440px) {
   .titulo_contacto {
     margin-top: 1.5em;
