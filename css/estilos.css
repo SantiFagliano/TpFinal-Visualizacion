@@ -159,22 +159,26 @@
 
 .nombre input {
     padding: 3em;
+    padding-left: 1em!important;
     background-color: white;
     opacity: 0.5;
 }
 
 .email input {
     background-color: white;
+    padding-left: 1em!important;
     opacity: 0.5;
 }
 
 .provincia input {
     background-color: white;
+    padding-left: 1em!important;
     opacity: 0.5;
 }
 
 .tel input {
     background-color: white;
+    padding-left: 1em!important;
     opacity: 0.5;
 }
 
