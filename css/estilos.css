@@ -64,18 +64,79 @@
 
 
 .icono{
-  font-size: 2em;
+    font-size: 2em;
+    transition: font-size 0.25s;
 }
 
-.combo{
-  background-color: #389a4f;
-  border-radius: 1em;
-  height: 10em;
+.icono:hover{
+    font-size: 2.5em;
 }
 
+.combos i {
+    color: white;
+    font-size: 3em;
+}
 
+.combos h3 {
+    color: white;
+    padding-top: 10px;
+}
 
+.combos{
+    background-color: #389a4f;
+    border-radius: 2em;
+    height: 10em;
+    width: 388px;
+    opacity: 1;
+    transition: opacity 0.25s;
+    margin-right: 0px;
+    margin-left: 0px;
+}
 
+.combos:hover{
+    opacity: 0;
+}
+
+.combos_Informacion{
+    position: relative;
+    z-index: -1;
+    top: -150px;
+    border-radius: 2em;
+    border: solid;
+    border-color:  rgba(0, 128, 0, 0.699);
+    background-color: #389a4f65;
+    height: 10em;
+    width: 388px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.combos_Informacion p{
+    color: green;
+    font-size: 2em;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.contenedorCombos{
+    height: 10em;
+}
+
+.botonCombo{
+    opacity: 0;
+    border-radius: 2em;
+    height: 10em;
+    width: 388px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+.logo_footer{
+    height: 3.8em;
+    margin-right: 5px;
+    float: left;
+}
 
 
 @media only screen and (max-width: 1440px) {
@@ -130,6 +191,7 @@
     max-width: 100%;
     z-index: 10;
 }
+
 
 @media only screen and (max-width: 1440px) {
     .titulo_Slider {
