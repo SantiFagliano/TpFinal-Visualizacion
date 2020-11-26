@@ -292,6 +292,7 @@ footer.page-footer {
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: 0em;
+        background-position-y: 11em;
     }
     .titulo_Slider {
         font-size: 5em;
@@ -419,6 +420,12 @@ footer.page-footer {
         margin-top: 24px;
         font-size: 1.2em;
     }
+    .mainContacto {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0em;
+        background-position-y: 24em;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -439,7 +446,7 @@ footer.page-footer {
         padding-left: 1em;
     }
     .mainContacto {
-        background-position-y: 45em;
+        background-position-y: 47em;
     }
     .tituloCombos {
         font-size: 34px;
