@@ -66,6 +66,7 @@
 .icono{
     font-size: 2em;
     transition: font-size 0.25s;
+    color: green;
 }
 
 .icono:hover{
@@ -123,13 +124,8 @@
 }
 
 .botonCombo{
-    opacity: 0;
-    border-radius: 2em;
+    display: block;
     height: 10em;
-    width: 388px;
-    margin-right: 0px;
-    margin-left: 0px;
-
 }
 
 .logo_footer{
