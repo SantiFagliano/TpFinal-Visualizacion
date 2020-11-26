@@ -63,6 +63,21 @@
     text-align: justify;
 }
 
+.icono{
+  font-size: 2em;
+}
+
+.combo{
+  background-color: #389a4f;
+  border-radius: 1em;
+  height: 10em;
+}
+
+
+
+
+
+
 @media only screen and (max-width: 1440px) {
 
     .titulo_Slider{
