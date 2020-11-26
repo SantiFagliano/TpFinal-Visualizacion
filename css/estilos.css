@@ -72,6 +72,67 @@
   font-size: 2.5em;
 }
 
+.combos i {
+    color: white;
+    font-size: 3em;
+  }
+
+  .combos h3 {
+    color: white;
+    padding-top: 10px;
+  }
+
+  .combos {
+    background-color: #389a4f;
+    border-radius: 2em;
+    height: 10em;
+    width: 26em;
+    opacity: 1;
+    transition: opacity 0.25s;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .combos:hover {
+    opacity: 0;
+  }
+
+  .combos_Informacion {
+    position: relative;
+    z-index: -1;
+    top: -150px;
+    border-radius: 2em;
+    border: solid;
+    border-color: rgba(0, 128, 0, 0.699);
+    background-color: #389a4f65;
+    height: 10em;
+    width: 26em;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .combos_Informacion p {
+    color: green;
+    font-size: 2em;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .contenedorCombos {
+    height: 10em;
+  }
+
+  .botonCombo {
+    display: block;
+    height: 10em;
+  }
+
+  .tituloCombos {
+    margin-bottom: 5%;
+    font-size: 4.5em;
+    margin-top: 0;
+  }
+
 .logo_footer {
   height: 3.8em;
   margin-right: 5px;
