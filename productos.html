@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BIO MOUNTAIN - Productos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+<header class="nav">
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+            <a class="black-text" href="index.html" class=""><img class="logo_Nav" src="img/logoGrande.jpg" /></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="a_menu" href="index.html">Inicio</a></li>
+                <li class="active"><a class="a_menu" href="productos.html">Productos</a></li>
+                <li><a class="a_menu" href="contacto.html">Contacto</a></li>
+                <li><a class="a_menu" href="sucursales.html">Sucursales</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a class="a_menu" href="#">Inicio</a></li>
+                <li><a class="a_menu" href="#">Productos</a></li>
+                <li><a class="a_menu" href="#">Contacto</a></li>
+                <li><a class="a_menu" href="#">Sucursales</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="black-text material-icons">menu</i></a
+            >
+        </div>
+    </nav>
+</header>
+
+<main class="mainProductos">
+    <nav class="no-shadows" role="navigation">
+        <div class="nav-wrapper no-shadows" id="barraCategorias">
+            <ul class="right hide-on-med-and-down barraCategorias">
+                <li><a href="#"><i class="material-icons black-text text-darken-2 objetoCategorias">shopping_cart</i></a></li>
+                <li><a href="#"><a  id="miCuenta" class="waves-effect waves-light btn objetoCategorias" >Mi cuenta</a></a></li>
+
+            </ul>
+            <ul class="left hide-on-med-and-down barraCategorias">
+                <li><a class="text-darken-2 black-text objetoCategorias " href="#">Bolsas</a></li>
+                <li><a class="text-darken-2 black-text objetoCategorias" href="#">Botellas</a></li>
+                <li><a class="text-darken-2 black-text objetoCategorias" href="#">Cacatubos</a></li>
+                <li><a class="text-darken-2 black-text objetoCategorias" href="#">Guardados</a></li>
+            </ul>
+
+            <ul id="nav-mobile2" class="sidenav">
+                <li><a class="a_menu" href="#">Bolsas</a></li>
+                <li><a class="a_menu" href="#">Botellas</a></li>
+                <li><a class="a_menu" href="#">Cacatubos</a></li>
+                <li><a class="a_menu" href="#">Guardados</a></li>
+                <li><a class="a_menu" href="#">Carrito</a></li>
+                <li><a class="a_menu" href="#">Mi cuenta</a></li>
+            </ul>
+
+            <a href="#" data-target="nav-mobile2" class="sidenav-trigger"><i class="black-text material-icons center-align green-text">settings</i></a
+            >
+        </div>
+    </nav>
+
+
+    </div>
+    <section id="filtros" class="green white-text center-align">
+        <div class="divFiltros"></div>
+        <div class="row">
+            <div id="todosLosProductos" class="col s1 ">Todos los productos</div>
+        </div>
+
+        <div class="row">
+            <div id="masBuscados" class="col s1 "> <a  id="botonMasBuscados" class="waves-effect waves-light btn">Más buscados</a> </div>
+        </div>
+
+        <div class="row">
+            <div id="envioGratis" class="col s1 "> <a  id="botonEnvioGratis" class="waves-effect waves-light btn">Envío gratis</a> </div>
+        </div>
+
+        <div class="row">
+            <div id="menorPrecio" class="col s1 "> <a  id="botonMenorPrecio" class="waves-effect waves-light btn">Menor precio</a> </div>
+        </div>
+
+        <div class="row">
+            <div id="mayorPrecio" class="col s1 "> <a  id="botonMayorPrecio" class="waves-effect waves-light btn">Mayor precio</a> </div>
+        </div>
+
+        <div class="row">
+            <div id="combos" class="col s1 "> <a  id="botonCombos" class="waves-effect waves-light btn">Combos</a> </div>
+        </div>
+
+
+    </section>
+
+    <section id="filtroPrecio" class="white black-text center-align">
+        <div class="row">
+            <div id="precio" class="col s1 ">Precio</div>
+        </div>
+        <div id="rango" class="row">
+            <div id="precioMin" class="col s1 green white-text"><input id="inputMin" class="green white-text" placeholder="Minimo" type="number"></div>
+            <div id="guion" class="col s2 green-text">-</div>
+            <div id="precioMax" class=" col s1 green white-text"><input id="inputMax" class="green white-text" placeholder="Maximo" type="number"></div>
+
+        </div>
+
+        <div class="row">
+            <div class="col s1 "> <a  id="botonAplicarFiltro" class="waves-effect waves-light btn">Buscar</a> </div>
+        </div>
+    </section>
+
+    <section class="catalogo">
+        <h3 class="center">Todos los productos</h3>
+        <div class="row objetoCatalogo">
+            <div class="col s3 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="center-block fotoCatalogo" src="img/bowlsimple.jpg">
+                        <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add_shopping_cart</i></a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="">Bowl simple <span class="green-text right">$50</span></h5>
+                        <p>Bowl simple para comida.</p>
+                        <br>
+                        <a href="#"><a class="boton-cartas waves-effect waves-light btn green">Detalles</a></a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s3 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="center-block fotoCatalogo"  src="img/bandejadoble.jpg">
+                        <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add_shopping_cart</i></a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="">Bandeja doble <span class="green-text right">$70</span></h5>
+                        <p>Bandeja doble con separación.</p>
+                        <br>
+                        <a href="#"><a class="boton-cartas waves-effect waves-light btn green">Detalles</a></a><span class="green-text right">Envio gratis</span>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s3 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="center-block fotoCatalogo"  src="img/botella.jpg">
+                        <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add_shopping_cart</i></a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="">Botella simple <span class="green-text right">$60</span></h5>
+                        <p>Botella simple biodegradable.</p>
+                        <br>
+                        <a href="#"><a class="boton-cartas waves-effect waves-light btn green">Detalles</a></a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row objetoCatalogo">
+            <div class="col s3 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="center-block fotoCatalogo"  src="img/cubiertos.jpg">
+                        <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add_shopping_cart</i></a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="">Set de cubiertos <span class="green-text right">$20</span></h5>
+                        <p>Cubiertos de bambu biodegradables.</p>
+                        <br>
+                        <a href="#"><a class="boton-cartas waves-effect waves-light btn green">Detalles</a></a>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+                <div class="col s3 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="center-block fotoCatalogo"  src="img/botella2.jpg">
+                            <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add_shopping_cart</i></a>
+                        </div>
+                        <div class="card-content">
+                            <h5 class="">Botella deportiva <span class="green-text right">$100</span></h5>
+                            <p>Botella deportiva biodegradable.</p>
+                            <br>
+                            <a href="#"><a class="boton-cartas waves-effect waves-light btn green">Detalles</a></a><span class="green-text right">Envio gratis</span>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            <div class="col s3 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="center-block fotoCatalogo"  src="img/bandejasimple.jpg">
+                        <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add_shopping_cart</i></a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="">Bandeja simple <span class="green-text right">$30</span></h5>
+                        <p>Bandeja simple para una persona.</p>
+                        <br>
+                        <a href="#"><a class="boton-cartas waves-effect waves-light btn green">Detalles</a></a>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <h3 class="center productosRecomendados">Productos recomendados</h3>
+
+
+    <section class="sectionObjetosRecomendados">
+        <div class="row objetosRecomendados objetoCatalogo">
+            <div class="col s3 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="center-block fotoCatalogo"  src="img/bolsaBiodegradable.jpg">
+                        <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add_shopping_cart</i></a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="">Bolsa biodegradable <span class="green-text right">$15</span></h5>
+                        <p>Pack de 3 bolsas biodegradables.</p>
+                        <br>
+                        <a href="#"><a class="boton-cartas waves-effect waves-light btn green">Detalles</a></a>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col s3 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="center-block fotoCatalogo"  src="img/vasobiodegradable.jpg">
+                        <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add_shopping_cart</i></a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="">Vaso biodegradable <span class="green-text right">$30</span></h5>
+                        <p>Vaso biodegradable para liquidos.</p>
+                        <br>
+                        <a href="#"><a class="boton-cartas waves-effect waves-light btn green">Detalles</a></a>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s3 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="center-block fotoCatalogo"  src="img/vasotermico.jpg">
+                        <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add_shopping_cart</i></a>
+                    </div>
+                    <div class="card-content">
+                        <h5 class="">Vaso termico <span class="green-text right">$360</span></h5>
+                        <p>Vaso termico de fibra de bambú.</p>
+                        <br>
+                        <a href="#"><a class="boton-cartas waves-effect waves-light btn green">Detalles</a></a><span class="green-text right">Envio gratis</span>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <ul class="pagination center">
+        <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+        <li class="active green"><a href="#!">1</a></li>
+        <li class="waves-effect"><a href="#!">2</a></li>
+        <li class="waves-effect"><a href="#!">3</a></li>
+        <li class="waves-effect"><a href="#!">4</a></li>
+        <li class="waves-effect"><a href="#!">5</a></li>
+        <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+    </ul>
+
+</main>
+
+    <footer id="footerProductos" class="page-footer green">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">BIO MOUNTAIN</h5>
+                    <p class="grey-text text-lighten-4">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero atque assumenda laborum nihil maiores nulla, perspiciatis molestiae veritatis facere voluptas qui optio aliquam praesentium sit similique ipsa culpa laboriosam officia?
+                    </p>
+                </div>
+                <div class="col l3 s12 right">
+                    <h5 class="white-text">Redes Sociales</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">Facebook</a></li>
+                        <li><a class="white-text" href="#!">Instagram</a></li>
+                        <li><a class="white-text" href="#!">Twitter</a></li>
+                        <li><a class="white-text" href="#!">Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+        </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="js/materialize.min.js"></script>
+    <script src="js/materialize.js"></script>
+</body>
+
+</html>
