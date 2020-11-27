@@ -205,6 +205,30 @@
 }
 
 
+/***ConoceComo***/
+
+.mainConoceComo {
+    margin-top: 5em;
+}
+
+.mainConoceComo .Conocebold {
+    color: #fff;
+    font-weight: bold;
+}
+
+.mainConoceComo .tituloMaterial {
+    border-bottom: 4px #4caf50 solid;
+}
+
+.mainConoceComo .row {
+    width: 80%;
+    margin: auto;
+    border-bottom: 4px #4caf50 solid;
+}
+
+.mainConoceComo .row img {}
+
+
 /****css Materialize****/
 
 nav ul a,
