@@ -681,6 +681,7 @@ footer.page-footer {
     position: absolute;
     bottom: 300px;
     left: 500px;
+    
 }
     #rango{
         width: 400px;
@@ -693,7 +694,7 @@ footer.page-footer {
     .objetoCatalogo{
         width: 100%;
     }
-
+}
 
     /* Ivan */
 
