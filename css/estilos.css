@@ -62,34 +62,207 @@
     text-align: justify;
 }
 
-
-.icono{
-  font-size: 2em;
+.icono {
+    font-size: 2em;
+    transition: font-size 0.25s;
+    color: green;
 }
 
-.combo{
-  background-color: #389a4f;
-  border-radius: 1em;
-  height: 10em;
+.icono:hover {
+    font-size: 2.5em;
+}
+
+.combos i {
+    color: white;
+    font-size: 3em;
+}
+
+.combos h3 {
+    color: white;
+    padding-top: 10px;
+}
+
+.combos {
+    background-color: #389a4f;
+    border-radius: 2em;
+    height: 10em;
+    width: 26em;
+    opacity: 1;
+    transition: opacity 0.25s;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.combos:hover {
+    opacity: 0;
+}
+
+.combos_Informacion {
+    position: relative;
+    z-index: -1;
+    top: -150px;
+    border-radius: 2em;
+    border: solid;
+    border-color: rgba(0, 128, 0, 0.699);
+    background-color: #389a4f65;
+    height: 10em;
+    width: 26em;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.combos_Informacion p {
+    color: green;
+    font-size: 2em;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.contenedorCombos {
+    height: 10em;
+}
+
+.botonCombo {
+    display: block;
+    height: 10em;
+}
+
+.tituloCombos {
+    margin-bottom: 5%;
+    font-size: 4.5em;
+    margin-top: 0;
+}
+
+.titulo_contacto {
+    margin-top: 1.5em;
+}
+
+.consulta textarea {
+    padding: 1em;
+    height: 10em;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-width: 0.1em;
+    border-radius: 1em;
+    border-right-color: #444;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.contacto label {
+    color: #888;
+    font-size: 1em;
+    font-weight: 640;
+    text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+}
+
+.nombre input {
+    padding: 3em;
+    padding-left: 1em!important;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.email input {
+    background-color: white;
+    padding-left: 1em!important;
+    opacity: 0.5;
+}
+
+.provincia input {
+    background-color: white;
+    padding-left: 1em!important;
+    opacity: 0.5;
+}
+
+.tel input {
+    background-color: white;
+    padding-left: 1em!important;
+    opacity: 0.5;
+}
+
+.consulta {
+    color: white;
+}
+
+.sub_contacto {
+    padding-left: 28.4em;
+    font-size: 1.5em;
+}
+
+.mainContacto {
+    background-image: url(https://i.ibb.co/jbMdDC2/fondo-Contacto.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0em;
+}
+
+.logo_footer {
+    height: 3.8em;
+    margin-right: 5px;
+    float: left;
 }
 
 
+/****css Materialize****/
 
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
 
+p {
+    line-height: 2rem;
+}
 
+.sidenav-trigger {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0.8;
+    height: auto;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+.sidenav-overlay {
+    background-color: #fff!important;
+    color: #000!important;
+    opacity: 0.5!important;
+}
+
+@media only screen and (max-width: 2880px) {
+    .titulo_Slider {
+        font-size: 5em;
+    }
+}
 
 @media only screen and (max-width: 1440px) {
-
     .titulo_contacto {
         margin-top: 1.5em;
     }
-
-
     .sub_contacto {
-        padding-left: 0.5em;
+        padding-left: 3em;
         font-size: 1.5em;
     }
-
     .consulta textarea {
         padding: 1em;
         height: 10em;
@@ -102,158 +275,262 @@
         background-color: white;
         opacity: 0.5;
     }
-
     .contacto label {
         color: #888;
         font-size: 1em;
         font-weight: 640;
         text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
     }
-
     .tel input {
         background-color: white;
         opacity: 0.5;
     }
-
     .consulta {
-        color: white
+        color: white;
     }
-
     .mainContacto {
-        background-image: url(/img/fondoContacto.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: 0em;
+        background-position-y: 11em;
     }
-
-    .fondo img {
-        max-width: 100%;
-        z-index: 10;
+    .titulo_Slider {
+        font-size: 5em;
     }
-
-    @media only screen and (max-width: 1440px) {
-        .titulo_Slider {
-            font-size: 5em;
-        }
-
-        .sub_contacto {
-            padding-left: 3em;
-        }
+    .combos i {
+        color: white;
+        font-size: 3em;
     }
-
-    @media only screen and (max-width: 1024px) {
-        .titulo_Slider {
-            font-size: 4em;
-        }
-
-        .sub_contacto {
-            padding-left: 2.5em;
-        }
+    .combos h3 {
+        color: white;
+        padding-top: 10px;
     }
-
-    @media only screen and (max-width: 768px) {
-        .titulo_Slider {
-            font-size: 3.5em;
-        }
+    .combos {
+        background-color: #389a4f;
+        border-radius: 2em;
+        height: 10em;
+        width: 26em;
+        opacity: 1;
+        transition: opacity 0.25s;
+        margin-right: 0px;
+        margin-left: 0px;
     }
-
-    @media only screen and (max-width: 425px) {
-        .titulo_Slider {
-            font-size: 2.4em;
-        }
-
-        .mainContacto h1 {
-            padding-top: 0.5em;
-            font-size: 3em;
-        }
-
-        .sub_contacto {
-            padding-left: 1em;
-        }
-
-        .mainContacto {
-            background-position-y: 45em;
-        }
+    .combos:hover {
+        opacity: 0;
     }
-
-    @media only screen and (max-width: 375px) {
-        .titulo_Slider {
-            font-size: 2.1em;
-        }
+    .combos_Informacion {
+        position: relative;
+        z-index: -1;
+        top: -150px;
+        border-radius: 2em;
+        border: solid;
+        border-color: rgba(0, 128, 0, 0.699);
+        background-color: #389a4f65;
+        height: 10em;
+        width: 26em;
+        margin-right: 0px;
+        margin-left: 0px;
     }
-
-    @media only screen and (max-width: 320px) {
-        .titulo_Slider {
-            font-size: 2.3em;
-        }
-
-        .mainContacto h1 {
-            padding-top: 0.5em;
-            font-size: 2.5em;
-        }
-
-        .sub_contacto {
-            font-size: 1.2em;
-        }
-
-        .mainContacto {
-            background-position-y: 50em;
-        }
+    .combos_Informacion p {
+        color: green;
+        font-size: 2em;
+        margin-left: 2px;
+        margin-right: 2px;
     }
-
-
-    /****css Materialize****/
-    nav ul a,
-    nav .brand-logo {
-        color: #444;
+    .contenedorCombos {
+        height: 10em;
     }
-
-    p {
-        line-height: 2rem;
+    .botonCombo {
+        display: block;
+        height: 10em;
     }
-
-    .sidenav-trigger {
-        color: #26a69a;
+    .tituloCombos {
+        margin-bottom: 5%;
+        font-size: 4.5em;
+        margin-top: 0;
     }
+}
 
-    .parallax-container {
-        min-height: 380px;
-        line-height: 0.8;
-        height: auto;
-        color: rgba(255, 255, 255, 0.9);
+@media only screen and (max-width: 1024px) {
+    .titulo_Slider {
+        font-size: 4em;
     }
-
-    .parallax-container .section {
-        width: 100%;
+    .sub_contacto {
+        padding-left: 2.5em;
     }
-
-    @media only screen and (max-width: 992px) {
-        .parallax-container .section {
-            position: absolute;
-            top: 40%;
-        }
-
-        #index-banner .section {
-            top: 10%;
-        }
+    .tituloCombos {
+        font-size: 47px;
     }
-
-    @media only screen and (max-width: 600px) {
-        #index-banner .section {
-            top: 0;
-        }
-    }
-
-    .icon-block {
-        padding: 0 15px;
-    }
-
-    .icon-block .material-icons {
-        font-size: inherit;
-    }
-
-    footer.page-footer {
+    .combos {
+        width: 20em;
+        height: 10.5em;
         margin: 0;
+        padding: 0;
+        background-color: #389a4f;
+        border-radius: 2em;
+        opacity: 1;
+        transition: opacity 0.25s;
+    }
+    .combos_Informacion {
+        width: 20em;
+        height: 10.5em;
+        margin: 0;
+        padding: 0;
+    }
+    .combos_Informacion p {
+        margin-top: 24px;
+        font-size: 1.7em;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .titulo_Slider {
+        font-size: 3.5em;
+    }
+    .tituloCombos {
+        font-size: 34px;
+    }
+    .combos {
+        width: 15em;
+        height: 10.5em;
+        margin: 0;
+        padding: 0;
+        background-color: #389a4f;
+        border-radius: 2em;
+        opacity: 1;
+        transition: opacity 0.25s;
+    }
+    .combos_Informacion {
+        width: 15em;
+        height: 10.5em;
+        margin: 0;
+        padding: 0;
+    }
+    .combos_Informacion p {
+        margin-top: 24px;
+        font-size: 1.2em;
+    }
+    .mainContacto {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0em;
+        background-position-y: 24em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .titulo_Slider {
+        font-size: 2.4em;
+    }
+    .mainContacto h1 {
+        padding-top: 0.5em;
+        font-size: 3em;
+    }
+    .sub_contacto {
+        padding-left: 1em;
+    }
+    .mainContacto {
+        background-position-y: 47em;
+    }
+    .tituloCombos {
+        font-size: 34px;
+    }
+    .combos {
+        width: 26em;
+        height: 10.5em;
+        margin: 0;
+        padding: 0;
+        background-color: #389a4f;
+        border-radius: 2em;
+        opacity: 1;
+        transition: opacity 0.25s;
+    }
+    .combos_Informacion {
+        width: 26em;
+        height: 10.5em;
+        margin: 0;
+        padding: 0;
+    }
+    .combos_Informacion p {
+        margin-top: 24px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .titulo_Slider {
+        font-size: 2.1em;
+    }
+    .tituloCombos {
+        font-size: 30px;
+    }
+    .combos {
+        width: 22em;
+        height: 10.5em;
+        margin: 0;
+        padding: 0;
+    }
+    .combos_Informacion {
+        width: 22em;
+        height: 10.5em;
+        margin: 0;
+        padding: 0;
+    }
+    .combos_Informacion p {
+        margin-top: 14px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .titulo_Slider {
+        font-size: 2.3em;
+    }
+    .mainContacto h1 {
+        padding-top: 0.5em;
+        font-size: 2.5em;
+    }
+    .sub_contacto {
+        font-size: 1.2em;
+    }
+    .mainContacto {
+        background-position-y: 50em;
+    }
+    .tituloCombos {
+        font-size: 26px;
+    }
+    .combos {
+        width: 19em;
+        height: 10.5em;
+        margin: 0;
+        padding: 0;
+        background-color: #389a4f;
+        border-radius: 2em;
+        opacity: 1;
+        transition: opacity 0.25s;
+    }
+    .combos_Informacion {
+        width: 19em;
+        height: 10.5em;
+        margin: 0;
+        padding: 0;
+    }
+    .combos_Informacion p {
+        margin-top: 11px;
     }
 }
 
@@ -416,24 +693,3 @@
     .objetoCatalogo{
         width: 100%;
     }
-    .productosRecomendados{
-        position: relative;
-        top: 100px;
-    }
-    .objetosRecomendados{
-        position: relative;
-        top: 130px;
-        width: 100%;
-    }
-    .pagination{
-        position: relative;
-        top: 140px;
-    }
-    #footerProductos{
-        position: relative;
-        top: 300px;
-    }
-    .sectionObjetosRecomendados{
-        width: 700px;
-    }
-}
