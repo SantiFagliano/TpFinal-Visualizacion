@@ -137,6 +137,11 @@
     margin-top: 1.5em;
 }
 
+.consulta {
+    margin: 2em;
+    padding-top: 7em;
+}
+
 .consulta textarea {
     padding: 1em;
     height: 10em;
@@ -187,15 +192,9 @@
 }
 
 .sub_contacto {
-    padding-left: 28.4em;
+    padding-left: 0em !important;
+    padding-bottom: 1em !important;
     font-size: 1.5em;
-}
-
-.mainContacto {
-    background-image: url(https://i.ibb.co/jbMdDC2/fondo-Contacto.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: 0em;
 }
 
 .logo_footer {
@@ -496,12 +495,6 @@ footer.page-footer {
     .consulta {
         color: white;
     }
-    .mainContacto {
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: 0em;
-        background-position-y: 11em;
-    }
     .titulo_Slider {
         font-size: 5em;
     }
@@ -628,12 +621,6 @@ footer.page-footer {
         margin-top: 24px;
         font-size: 1.2em;
     }
-    .mainContacto {
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: 0em;
-        background-position-y: 24em;
-    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -652,9 +639,6 @@ footer.page-footer {
     }
     .sub_contacto {
         padding-left: 1em;
-    }
-    .mainContacto {
-        background-position-y: 47em;
     }
     .tituloCombos {
         font-size: 34px;
@@ -714,9 +698,6 @@ footer.page-footer {
     }
     .sub_contacto {
         font-size: 1.2em;
-    }
-    .mainContacto {
-        background-position-y: 50em;
     }
     .tituloCombos {
         font-size: 26px;

@@ -36,60 +36,86 @@
     </header>
 
     <main class="mainContacto">
-        <div>
-            <h1 class="center black-text text-lighten-2 titulo_contacto">
-                ¡CONTACTANOS!
-            </h1>
-            <div class="row center">
-                <h5 class="header col s12 light">
-                    Responderemos en las próximas 24 horas
-                </h5>
+        <div id="index-banner" class="parallax-container">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <br /><br />
+                    <h1 class="header center black-text text-lighten-2 titulo_Slider">
+                        ¡CONTACTANOS!
+                    </h1>
+                    <div class="row center">
+                        <h5 class="header col s12 light black-text">
+                            Responderemos en las próximas 24 horas
+                        </h5>
+                    </div>
+                </div>
             </div>
-            <br />
-            <h6 class="col s12 light sub_contacto">
-                Rellená los campos y enviá tu consulta
-                <br>
-            </h6>
+            <div class="parallax">
+                <img src="img/fotoContacto.jpg" alt="Unsplashed background img 1" />
+            </div>
         </div>
-        </div>
-        </div>
+
 
         <div class="container">
             <div class="section">
                 <div class="row">
 
                     <section class="contacto">
+                        <div>
+                            <h6 class="col s12 light sub_contacto">
+                                Rellená los campos y enviá tu consulta
+                                <br>
+                            </h6>
+                        </div>
 
                         <form action="#" name="form">
+                            <div class="row">
+                                <div class="col s6">
+                                    <div class="icon-block">
+                                        <div class="nombre">
+                                            <label for="nombre"> NOMBRE <br> </label>
+                                            <input type="text" name="nombre" id="nombre" required> <br>
+                                        </div>
+                                    </div>
+                                </div>
 
-                            <div class="nombre">
-                                <label for="nombre"> NOMBRE <br> </label>
-                                <input type="text" name="nombre" id="nombre" required> <br> <br>
+                                <div class="col s6">
+                                    <div class="icon-block">
+                                        <div class="provincia">
+                                            <label for="provincia"> PROVINCIA <br> </label>
+                                            <input type="text" name="provincia" id="provincia" required> <br>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="provincia">
-                                <label for="provincia"> PROVINCIA <br> </label>
-                                <input type="text" name="provincia" id="provincia" required> <br> <br>
-                            </div>
+                            <div class="row">
+                                <div class="col s6">
+                                    <div class="icon-block">
+                                        <div class="tel">
+                                            <label for="telefono">TELÉFONO <br> </label>
+                                            <input type="text" name="telefono" id="telefono" required> <br>
+                                        </div>
+                                    </div>
+                                </div>
 
-                            <div class="email">
-                                <label for="email"> EMAIL <br> </label>
-                                <input type="email" name="email" id="email" required> <br> <br>
-                            </div>
+                                <div class="col s6">
+                                    <div class="icon-block">
+                                        <div class="email">
+                                            <label for="email"> EMAIL <br> </label>
+                                            <input type="email" name="email" id="email" required> <br>
+                                        </div>
+                                    </div>
+                                </div>
 
-                            <div class="tel">
-                                <label for="telefono"> TELÉFONO <br> </label>
-                                <input type="text" name="telefono" id="telefono" required> <br> <br>
-                            </div>
+                                <div class="consulta">
+                                    <label for="consulta"> CONSULTA<br> </label>
+                                    <textarea name="consulta" id="consulta" cols="50" rows="100" required></textarea> <br>
+                                    <br>
+                                </div>
 
-                            <div class="consulta">
-                                <label for="consulta"> CONSULTA<br> </label>
-                                <textarea name="consulta" id="consulta" cols="50" rows="100" required></textarea> <br>
-                                <br>
-                            </div>
-
-                            <div class="row center">
-                                <button type="submit" id="download-button" class="btn-large waves-effect waves-light lighten-1 boton_ConoceComo">ENVIAR</a>
+                                <div class="row center">
+                                    <button type="submit" id="download-button" class="btn-large waves-effect waves-light lighten-1 boton_ConoceComo">ENVIAR</a>
                             </div>
 
                         </form>
