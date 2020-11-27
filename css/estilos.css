@@ -212,21 +212,205 @@
 }
 
 .mainConoceComo .Conocebold {
-    color: #fff;
     font-weight: bold;
+}
+
+.mainConoceComo .descripcion {
+    padding: 1em;
+    width: 70%;
 }
 
 .mainConoceComo .tituloMaterial {
     border-bottom: 4px #4caf50 solid;
+    max-width: 100%;
 }
 
 .mainConoceComo .row {
-    width: 80%;
+    width: 90%;
     margin: auto;
+}
+
+.mainConoceComo .row img {
     border-bottom: 4px #4caf50 solid;
 }
 
-.mainConoceComo .row img {}
+.ventajas {
+    text-align: center;
+}
+
+.ventajas span {
+    border-bottom: 4px #4caf50 solid;
+}
+
+.ventajasBold {
+    color: #fff;
+    font-weight: bold;
+}
+
+.ventajasInfo {
+    display: flex;
+    justify-content: space-between!important;
+}
+
+.ventajasInfo .center i {
+    font-size: 30px;
+}
+
+.ventajasInfo p {
+    font-size: larger;
+}
+
+.ventajasInfo .m-2 {
+    margin: 0.5em;
+    width: 300px!important;
+    padding: 1em!important;
+}
+
+.p-2 {
+    padding: 2em;
+}
+
+.bordeH5 {
+    border-bottom: 4px #4caf50 solid;
+}
+
+.hr-desco {
+    width: 50%;
+    margin: auto;
+}
+
+.contenedor {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.contenedor .textoVerde {
+    padding: 1em;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px #000 solid;
+}
+
+.contenedor i {
+    margin: auto 1em;
+}
+
+.contenedor .textoGris {
+    padding: 1em;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px #000 solid;
+}
+
+@media only screen and (max-width: 425px) {
+    .mainConoceComo .tituloMaterial {
+        font-size: 2em;
+    }
+    .mainConoceComo .descripcion {
+        text-align: justify;
+        font-size: 1.4em;
+        width: 100%;
+    }
+    .mainConoceComo .row {
+        border: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mainConoceComo .tituloMaterial {
+        font-size: 2.4em;
+    }
+    .mainConoceComo .descripcion {
+        text-align: justify;
+        font-size: 1.4em;
+        width: 100%;
+    }
+    .mainConoceComo .row {
+        border: 0;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .m8 {
+        width: 50%!important;
+    }
+    .m4 {
+        width: 50%!important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mainConoceComo .tituloMaterial {
+        font-size: 2.3em;
+    }
+    .mainConoceComo .descripcion {
+        text-align: justify;
+        font-size: 1.4em;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 770px) {
+    .m8 {
+        width: 66.6666666667%!important;
+    }
+    .m4 {
+        width: 33.333333333%!important;
+    }
+}
+
+
+/*
+@media only screen and (max-width: 1024px) {
+    .mainConoceComo .tituloMaterial {
+        font-size: 2em;
+    }
+    .mainConoceComo .descripcion {
+        text-align: justify;
+        font-size: 1.4em;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .mainConoceComo .tituloMaterial {
+        font-size: 2em;
+    }
+    .mainConoceComo .descripcion {
+        text-align: justify;
+        font-size: 1.4em;
+        width: 100%;
+        margin: 0;
+    }
+}*/
+
+@media only screen and (max-width: 1920px) {
+    .mainConoceComo .tituloMaterial {
+        font-size: 2em;
+    }
+    .mainConoceComo .descripcion {
+        text-align: justify;
+        font-size: 1.4em;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 2880px) {
+    .mainConoceComo .tituloMaterial {
+        font-size: 2.3em;
+    }
+    .mainConoceComo .descripcion {
+        text-align: justify;
+        font-size: 1.4em;
+        width: 100%;
+        margin: 0;
+    }
+}
 
 
 /****css Materialize****/
