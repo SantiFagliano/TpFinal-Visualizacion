@@ -558,66 +558,64 @@ footer.page-footer {
     }
 }
 
+
 /******Productos******/
-.mainProductos{
+
+.mainProductos {
     position: relative;
-    top:80px;
+    top: 80px;
 }
 
-    #barraCategorias{
-        background-color: white;
-        border-radius: 0em;
-        font-size: 2.5em;
-        font-weight: bold;
-
-
+#barraCategorias {
+    background-color: white;
+    border-radius: 0em;
+    font-size: 2.5em;
+    font-weight: bold;
 }
-    .objetoCategorias{
-        font-size: 0.6em;
-    }
+
+.objetoCategorias {
+    font-size: 0.6em;
+}
 
 .no-shadows {
     box-shadow: none!important;
 }
-    #miCuenta{
-        color: white;
-        background-color: #389a4f;
-        position: relative;
-        bottom: 5px;
-    }
-    #footerProductos{
-        position: relative;
 
-    }
-    #filtros{
-        border-radius: 0.7em;
-        width: 290px;
-        height: 330px;
-        font-size: 1.2em;
-        position: relative;
-        left: 2%;
-        top: 40px;
+#miCuenta {
+    color: white;
+    background-color: #389a4f;
+    position: relative;
+    bottom: 5px;
+}
 
+#filtros {
+    border-radius: 0.7em;
+    width: 290px;
+    height: 330px;
+    font-size: 1.2em;
+    position: relative;
+    left: 2%;
+    top: 40px;
+}
 
-
-    }
-
-#todosLosProductos{
+#todosLosProductos {
     width: 100%;
     color: white;
     text-decoration: underline;
     font-weight: bold;
-
 }
-#botonMasBuscados, #botonEnvioGratis, #botonMenorPrecio, #botonMayorPrecio, #botonCombos{
 
+#botonMasBuscados,
+#botonEnvioGratis,
+#botonMenorPrecio,
+#botonMayorPrecio,
+#botonCombos {
     background-color: #389a4f;
     width: 260px;
     text-align: center;
-
-
 }
-#filtroPrecio{
+
+#filtroPrecio {
     color: black;
     font-weight: bold;
     position: relative;
@@ -626,149 +624,155 @@ footer.page-footer {
     width: 17%;
     left: 0.6%;
 }
-#precio{
+
+#precio {
     font-size: 1.5em;
     text-decoration: underline;
     text-decoration-color: #389a4f;
     text-decoration-width: 10em;
     position: relative;
     left: 5%;
-
 }
-#rango{
+
+#rango {
     width: 120%;
     position: relative;
     left: 8%;
 }
-#guion{
+
+#guion {
     font-size: 2em;
 }
-#precioMax{
-    width: 110px;
 
-}
-#precioMin{
+#precioMax {
     width: 110px;
-
 }
-#inputMin, #inputMax{
+
+#precioMin {
+    width: 110px;
+}
+
+#inputMin,
+#inputMax {
     box-shadow: none;
-    border:none;
+    border: none;
     border-bottom: none;
 }
-#botonAplicarFiltro{
+
+#botonAplicarFiltro {
     background-color: #389a4f;
     width: 300px;
     position: absolute;
     left: 7%;
 }
-.objetoCatalogo{
-    width: 55%;
 
+.objetoCatalogo {
+    width: 55%;
 }
 
-.precioCatalogo{
+.precioCatalogo {
     position: relative;
     bottom: 47px;
 }
-.catalogo{
+
+.catalogo {
     position: relative;
     bottom: 467px;
     left: 6%;
     width: 93%;
 }
-.fotoCatalogo{
+
+.fotoCatalogo {
     width: 250px;
     height: 230px;
-
 }
-.productosRecomendados{
+
+.productosRecomendados {
     position: relative;
     bottom: 450px;
 }
-.objetosRecomendados{
+
+.objetosRecomendados {
     position: relative;
     bottom: 350px;
 }
-.pagination{
+
+.pagination {
     position: relative;
     bottom: 240px;
 }
-@media only screen and (max-width: 1330px) {
 
-    .divFiltros{
+@media only screen and (max-width: 1330px) {
+    .divFiltros {
         position: relative;
         bottom: 400px;
     }
-
-    #filtroPrecio{
-    position: absolute;
-    bottom: 300px;
-    left: 500px;
-    
-}
-    #rango{
+    #filtroPrecio {
+        position: absolute;
+        bottom: 300px;
+        left: 500px;
+    }
+    #rango {
         width: 400px;
     }
-    .catalogo{
+    .catalogo {
         position: relative;
         top: 50px;
         width: 700px;
     }
-    .objetoCatalogo{
+    .objetoCatalogo {
         width: 100%;
     }
 }
 
-    /* Ivan */
 
-    .tituloPag{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .tituloPag h4{
-        margin-top: 50px;
-        margin-bottom: 20px;
-        margin-left: 10px;
-    }
-    
-    .parteArriba{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .parteArriba img{
-        width: 600px;
-        height: 500px;
-    }
-    
-    .parteAbajo{
-        margin-top: 50px;
-        margin-bottom: 30px;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .provincias{
-        background-color: #389a4f;
-        color: cornsilk;
-        padding: 6px;
-    }
-    
-    .parteArriba i{
-        margin-left: 40px;
-        margin-right: 40px;
-        color: #389a4f;
-        position: relative;
-        top: 250px;
-        
-    }
-    
-    .parteAbajoDerecha i{
-     position: relative;
-     bottom: -42px;
-     right: 25px;
-     color: #389a4f;
-    }
-    
+/* Ivan */
+
+.tituloPag {
+    display: flex;
+    justify-content: center;
+}
+
+.tituloPag h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.parteArriba {
+    display: flex;
+    justify-content: center;
+}
+
+.parteArriba img {
+    width: 600px;
+    height: 500px;
+}
+
+.parteAbajo {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.provincias {
+    background-color: #389a4f;
+    color: cornsilk;
+    padding: 6px;
+}
+
+.parteArriba i {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #389a4f;
+    position: relative;
+    top: 250px;
+}
+
+.parteAbajoDerecha i {
+    position: relative;
+    bottom: -42px;
+    right: 25px;
+    color: #389a4f;
+}
