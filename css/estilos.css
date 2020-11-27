@@ -693,3 +693,57 @@ footer.page-footer {
     .objetoCatalogo{
         width: 100%;
     }
+
+
+    /* Ivan */
+
+    .tituloPag{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tituloPag h4{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    
+    .parteArriba{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .parteArriba img{
+        width: 600px;
+        height: 500px;
+    }
+    
+    .parteAbajo{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .provincias{
+        background-color: #389a4f;
+        color: cornsilk;
+        padding: 6px;
+    }
+    
+    .parteArriba i{
+        margin-left: 40px;
+        margin-right: 40px;
+        color: #389a4f;
+        position: relative;
+        top: 250px;
+        
+    }
+    
+    .parteAbajoDerecha i{
+     position: relative;
+     bottom: -42px;
+     right: 25px;
+     color: #389a4f;
+    }
+    
