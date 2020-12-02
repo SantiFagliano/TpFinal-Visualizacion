@@ -237,12 +237,8 @@
     text-align: center;
 }
 
-.ventajas span {
-    border-bottom: 4px #4caf50 solid;
-}
-
 .ventajasBold {
-    color: #fff;
+    color: #4caf50;
     font-weight: bold;
 }
 
