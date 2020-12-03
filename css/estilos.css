@@ -133,8 +133,19 @@
     margin-top: 0;
 }
 
+
+/**Contacto**/
+
 .titulo_contacto {
     margin-top: 1.5em;
+}
+
+.mainContacto h1 {
+    margin: 2.8rem 0 1rem 0 !important;
+}
+
+.mainContacto h5 {
+    margin: 0;
 }
 
 .consulta {
@@ -617,6 +628,9 @@ footer.page-footer {
         margin-top: 24px;
         font-size: 1.2em;
     }
+    .parallax-container .parallax img {
+        left: 70% !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -658,6 +672,9 @@ footer.page-footer {
     .combos_Informacion p {
         margin-top: 24px;
     }
+    .parallax-container .parallax img {
+        left: 110%!important;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -681,6 +698,9 @@ footer.page-footer {
     }
     .combos_Informacion p {
         margin-top: 14px;
+    }
+    .parallax-container .parallax img {
+        left: 120%!important;
     }
 }
 
@@ -716,6 +736,9 @@ footer.page-footer {
     }
     .combos_Informacion p {
         margin-top: 11px;
+    }
+    .parallax-container .parallax img {
+        left: 140%!important;
     }
 }
 
