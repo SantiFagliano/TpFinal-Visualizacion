@@ -253,6 +253,15 @@
     font-weight: bold;
 }
 
+.bold {
+    font-weight: bold!important;
+}
+
+.mi-imagen {
+    -webkit-filter: grayscale(100%);
+    filter: blur(3px);
+}
+
 .ventajasInfo {
     display: flex;
     justify-content: space-between!important;
@@ -280,36 +289,27 @@
     border-bottom: 4px #4caf50 solid;
 }
 
-.hr-desco {
-    width: 50%;
-    margin: auto;
-}
-
-.contenedor {
-    display: flex;
-    width: 80%;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: auto;
-}
-
-.contenedor .textoVerde {
+.añoss {
     padding: 1em;
-    font-size: 20px;
-    border-radius: 50%;
-    border: 1px #000 solid;
 }
 
-.contenedor i {
-    margin: auto 1em;
+.mt-2 {
+    margin-top: 1em!important;
 }
 
-.contenedor .textoGris {
-    padding: 1em;
-    font-size: 20px;
-    border-radius: 50%;
-    border: 1px #000 solid;
+.mt-1 {
+    margin-top: 5em!important;
+}
+
+.botonDescompo {
+    width: 175px!important;
+    max-width: 100%!important;
+    margin: auto;
+    display: block!important;
+}
+
+.responsive-h3 {
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 425px) {
@@ -367,33 +367,10 @@
     .m4 {
         width: 33.333333333%!important;
     }
-}
-
-
-/*
-@media only screen and (max-width: 1024px) {
-    .mainConoceComo .tituloMaterial {
-        font-size: 2em;
-    }
-    .mainConoceComo .descripcion {
-        text-align: justify;
-        font-size: 1.4em;
-        width: 100%;
-        margin: 0;
+    .grafico {
+        width: 60%;
     }
 }
-
-@media only screen and (max-width: 1440px) {
-    .mainConoceComo .tituloMaterial {
-        font-size: 2em;
-    }
-    .mainConoceComo .descripcion {
-        text-align: justify;
-        font-size: 1.4em;
-        width: 100%;
-        margin: 0;
-    }
-}*/
 
 @media only screen and (max-width: 1920px) {
     .mainConoceComo .tituloMaterial {
