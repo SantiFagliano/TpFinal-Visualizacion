@@ -1,88 +1,316 @@
 /******Css******/
 
 .nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: white;
-    height: 3em;
-    z-index: 10;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  height: 3em;
+  z-index: 10;
 }
 
 .logo_Nav {
-    height: 3.8em;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
+  height: 3.8em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 .contenedor_Combos {
-    width: fit-content;
-    height: fit-content;
-    text-align: center;
-    position: relative;
-    top: 0;
-    left: 8%;
-    right: 0;
-    bottom: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 8%;
+  right: 0;
+  bottom: 0;
 }
 
 .combosAncho {
-    width: 27%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+  width: 27%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
 }
 
 .combos {
-    margin-right: 2%;
-    margin-left: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 .a_menu {
-    color: #389a4f;
-    font-weight: bold;
+  color: #389a4f;
+  font-weight: bold;
 }
 
 .main_Home {
-    margin-top: 4.3em;
+  margin-top: 4.3em;
 }
 
 .titulo_Slider {
-    font-weight: bold;
-    font-size: 1.2em;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 .boton_ConoceComo {
-    background-color: #389a4f;
+  background-color: #389a4f;
 }
 
 .descripcionIcon {
-    text-align: justify;
+  text-align: justify;
 }
 
 .icono {
-    font-size: 2em;
-    transition: font-size 0.25s;
-    color: green;
+  font-size: 2em;
+  transition: font-size 0.25s;
+  color: green;
 }
 
 .icono:hover {
-    font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 .combos i {
-    color: white;
-    font-size: 3em;
+  color: white;
+  font-size: 3em;
 }
 
 .combos h3 {
-    color: white;
-    padding-top: 10px;
+  color: white;
+  padding-top: 10px;
 }
 
 .combos {
+  background-color: #389a4f;
+  border-radius: 2em;
+  height: 10em;
+  width: 26em;
+  opacity: 1;
+  transition: opacity 0.25s;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.combos:hover {
+  opacity: 0;
+}
+
+.combos_Informacion {
+  position: relative;
+  z-index: -1;
+  top: -150px;
+  border-radius: 2em;
+  border: solid;
+  border-color: rgba(0, 128, 0, 0.699);
+  background-color: #389a4f65;
+  height: 10em;
+  width: 26em;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.combos_Informacion p {
+  color: green;
+  font-size: 2em;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.contenedorCombos {
+  height: 10em;
+}
+
+.botonCombo {
+  display: block;
+  height: 10em;
+}
+
+.tituloCombos {
+  margin-bottom: 5%;
+  font-size: 4.5em;
+  margin-top: 0;
+}
+
+.titulo_contacto {
+  margin-top: 1.5em;
+}
+
+.consulta textarea {
+  padding: 1em;
+  height: 10em;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-width: 0.1em;
+  border-radius: 1em;
+  border-right-color: #444;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.contacto label {
+  color: #888;
+  font-size: 1em;
+  font-weight: 640;
+  text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white,
+    1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+}
+
+.nombre input {
+  padding: 3em;
+  padding-left: 1em !important;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.email input {
+  background-color: white;
+  padding-left: 1em !important;
+  opacity: 0.5;
+}
+
+.provincia input {
+  background-color: white;
+  padding-left: 1em !important;
+  opacity: 0.5;
+}
+
+.tel input {
+  background-color: white;
+  padding-left: 1em !important;
+  opacity: 0.5;
+}
+
+.consulta {
+  color: white;
+}
+
+.sub_contacto {
+  padding-left: 28.4em;
+  font-size: 1.5em;
+}
+
+.mainContacto {
+  background-image: url(https://i.ibb.co/jbMdDC2/fondo-Contacto.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0em;
+}
+
+.logo_footer {
+  height: 3.8em;
+  margin-right: 5px;
+  float: left;
+}
+
+/****css Materialize****/
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0.8;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.sidenav-overlay {
+  background-color: #fff !important;
+  color: #000 !important;
+  opacity: 0.5 !important;
+}
+
+@media only screen and (max-width: 2880px) {
+  .titulo_Slider {
+    font-size: 5em;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .titulo_contacto {
+    margin-top: 1.5em;
+  }
+  .sub_contacto {
+    padding-left: 3em;
+    font-size: 1.5em;
+  }
+  .consulta textarea {
+    padding: 1em;
+    height: 10em;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-width: 0.1em;
+    border-radius: 1em;
+    border-right-color: #444;
+    background-color: white;
+    opacity: 0.5;
+  }
+  .contacto label {
+    color: #888;
+    font-size: 1em;
+    font-weight: 640;
+    text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white,
+      1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+  }
+  .tel input {
+    background-color: white;
+    opacity: 0.5;
+  }
+  .consulta {
+    color: white;
+  }
+  .mainContacto {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0em;
+    background-position-y: 11em;
+  }
+  .titulo_Slider {
+    font-size: 5em;
+  }
+  .combos i {
+    color: white;
+    font-size: 3em;
+  }
+  .combos h3 {
+    color: white;
+    padding-top: 10px;
+  }
+  .combos {
     background-color: #389a4f;
     border-radius: 2em;
     height: 10em;
@@ -91,13 +319,11 @@
     transition: opacity 0.25s;
     margin-right: 0px;
     margin-left: 0px;
-}
-
-.combos:hover {
+  }
+  .combos:hover {
     opacity: 0;
-}
-
-.combos_Informacion {
+  }
+  .combos_Informacion {
     position: relative;
     z-index: -1;
     top: -150px;
@@ -109,684 +335,258 @@
     width: 26em;
     margin-right: 0px;
     margin-left: 0px;
-}
-
-.combos_Informacion p {
+  }
+  .combos_Informacion p {
     color: green;
     font-size: 2em;
     margin-left: 2px;
     margin-right: 2px;
-}
-
-.contenedorCombos {
+  }
+  .contenedorCombos {
     height: 10em;
-}
-
-.botonCombo {
+  }
+  .botonCombo {
     display: block;
     height: 10em;
-}
-
-.tituloCombos {
+  }
+  .tituloCombos {
     margin-bottom: 5%;
     font-size: 4.5em;
     margin-top: 0;
-}
-
-
-/**Contacto**/
-
-.titulo_contacto {
-    margin-top: 1.5em;
-}
-
-.mainContacto h1 {
-    margin: 2.8rem 0 1rem 0 !important;
-}
-
-.mainContacto h5 {
-    margin: 0;
-}
-
-.consulta {
-    margin: 2em;
-    padding-top: 7em;
-}
-
-.consulta textarea {
-    padding: 1em;
-    height: 10em;
-    border-top-style: none;
-    border-right-style: none;
-    border-left-style: none;
-    border-bottom-width: 0.1em;
-    border-radius: 1em;
-    border-right-color: #444;
-    background-color: white;
-    opacity: 0.5;
-}
-
-.contacto label {
-    color: #888;
-    font-size: 1em;
-    font-weight: 640;
-    text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
-}
-
-.nombre input {
-    padding: 3em;
-    padding-left: 1em!important;
-    background-color: white;
-    opacity: 0.5;
-}
-
-.email input {
-    background-color: white;
-    padding-left: 1em!important;
-    opacity: 0.5;
-}
-
-.provincia input {
-    background-color: white;
-    padding-left: 1em!important;
-    opacity: 0.5;
-}
-
-.tel input {
-    background-color: white;
-    padding-left: 1em!important;
-    opacity: 0.5;
-}
-
-.consulta {
-    color: white;
-}
-
-.sub_contacto {
-    padding-left: 0em !important;
-    padding-bottom: 1em !important;
-    font-size: 1.5em;
-}
-
-.logo_footer {
-    height: 3.8em;
-    margin-right: 5px;
-    float: left;
-}
-
-
-/***ConoceComo***/
-
-.mainConoceComo {
-    margin-top: 5em;
-}
-
-.mainConoceComo .Conocebold {
-    font-weight: bold;
-}
-
-.mainConoceComo .descripcion {
-    padding: 1em;
-    width: 70%;
-}
-
-.mainConoceComo .tituloMaterial {
-    border-bottom: 4px #4caf50 solid;
-    max-width: 100%;
-}
-
-.mainConoceComo .row {
-    width: 90%;
-    margin: auto;
-}
-
-.mainConoceComo .row img {
-    border-bottom: 4px #4caf50 solid;
-}
-
-.ventajas {
-    text-align: center;
-}
-
-.ventajasBold {
-    color: #4caf50;
-    font-weight: bold;
-}
-
-.ventajasInfo {
-    display: flex;
-    justify-content: space-between!important;
-}
-
-.ventajasInfo .center i {
-    font-size: 30px;
-}
-
-.ventajasInfo p {
-    font-size: larger;
-}
-
-.ventajasInfo .m-2 {
-    margin: 0.5em;
-    width: 300px!important;
-    padding: 1em!important;
-}
-
-.p-2 {
-    padding: 2em;
-}
-
-.bordeH5 {
-    border-bottom: 4px #4caf50 solid;
-}
-
-.hr-desco {
-    width: 50%;
-    margin: auto;
-}
-
-.contenedor {
-    display: flex;
-    width: 80%;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: auto;
-}
-
-.contenedor .textoVerde {
-    padding: 1em;
-    font-size: 20px;
-    border-radius: 50%;
-    border: 1px #000 solid;
-}
-
-.contenedor i {
-    margin: auto 1em;
-}
-
-.contenedor .textoGris {
-    padding: 1em;
-    font-size: 20px;
-    border-radius: 50%;
-    border: 1px #000 solid;
-}
-
-@media only screen and (max-width: 425px) {
-    .mainConoceComo .tituloMaterial {
-        font-size: 2em;
-    }
-    .mainConoceComo .descripcion {
-        text-align: justify;
-        font-size: 1.4em;
-        width: 100%;
-    }
-    .mainConoceComo .row {
-        border: 0;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .mainConoceComo .tituloMaterial {
-        font-size: 2.4em;
-    }
-    .mainConoceComo .descripcion {
-        text-align: justify;
-        font-size: 1.4em;
-        width: 100%;
-    }
-    .mainConoceComo .row {
-        border: 0;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .m8 {
-        width: 50%!important;
-    }
-    .m4 {
-        width: 50%!important;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .mainConoceComo .tituloMaterial {
-        font-size: 2.3em;
-    }
-    .mainConoceComo .descripcion {
-        text-align: justify;
-        font-size: 1.4em;
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width: 770px) {
-    .m8 {
-        width: 66.6666666667%!important;
-    }
-    .m4 {
-        width: 33.333333333%!important;
-    }
-}
-
-
-/*
-@media only screen and (max-width: 1024px) {
-    .mainConoceComo .tituloMaterial {
-        font-size: 2em;
-    }
-    .mainConoceComo .descripcion {
-        text-align: justify;
-        font-size: 1.4em;
-        width: 100%;
-        margin: 0;
-    }
-}
-
-@media only screen and (max-width: 1440px) {
-    .mainConoceComo .tituloMaterial {
-        font-size: 2em;
-    }
-    .mainConoceComo .descripcion {
-        text-align: justify;
-        font-size: 1.4em;
-        width: 100%;
-        margin: 0;
-    }
-}*/
-
-@media only screen and (max-width: 1920px) {
-    .mainConoceComo .tituloMaterial {
-        font-size: 2em;
-    }
-    .mainConoceComo .descripcion {
-        text-align: justify;
-        font-size: 1.4em;
-        margin: 0;
-    }
-}
-
-@media only screen and (max-width: 2880px) {
-    .mainConoceComo .tituloMaterial {
-        font-size: 2.3em;
-    }
-    .mainConoceComo .descripcion {
-        text-align: justify;
-        font-size: 1.4em;
-        width: 100%;
-        margin: 0;
-    }
-}
-
-
-/****css Materialize****/
-
-nav ul a,
-nav .brand-logo {
-    color: #444;
-}
-
-p {
-    line-height: 2rem;
-}
-
-.sidenav-trigger {
-    color: #26a69a;
-}
-
-.parallax-container {
-    min-height: 380px;
-    line-height: 0.8;
-    height: auto;
-    color: rgba(255, 255, 255, 0.9);
-}
-
-.parallax-container .section {
-    width: 100%;
-}
-
-.icon-block {
-    padding: 0 15px;
-}
-
-.icon-block .material-icons {
-    font-size: inherit;
-}
-
-footer.page-footer {
-    margin: 0;
-}
-
-.sidenav-overlay {
-    background-color: #fff!important;
-    color: #000!important;
-    opacity: 0.5!important;
-}
-
-@media only screen and (max-width: 2880px) {
-    .titulo_Slider {
-        font-size: 5em;
-    }
-}
-
-@media only screen and (max-width: 1440px) {
-    .titulo_contacto {
-        margin-top: 1.5em;
-    }
-    .sub_contacto {
-        padding-left: 3em;
-        font-size: 1.5em;
-    }
-    .consulta textarea {
-        padding: 1em;
-        height: 10em;
-        border-top-style: none;
-        border-right-style: none;
-        border-left-style: none;
-        border-bottom-width: 0.1em;
-        border-radius: 1em;
-        border-right-color: #444;
-        background-color: white;
-        opacity: 0.5;
-    }
-    .contacto label {
-        color: #888;
-        font-size: 1em;
-        font-weight: 640;
-        text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
-    }
-    .tel input {
-        background-color: white;
-        opacity: 0.5;
-    }
-    .consulta {
-        color: white;
-    }
-    .titulo_Slider {
-        font-size: 5em;
-    }
-    .combos i {
-        color: white;
-        font-size: 3em;
-    }
-    .combos h3 {
-        color: white;
-        padding-top: 10px;
-    }
-    .combos {
-        background-color: #389a4f;
-        border-radius: 2em;
-        height: 10em;
-        width: 26em;
-        opacity: 1;
-        transition: opacity 0.25s;
-        margin-right: 0px;
-        margin-left: 0px;
-    }
-    .combos:hover {
-        opacity: 0;
-    }
-    .combos_Informacion {
-        position: relative;
-        z-index: -1;
-        top: -150px;
-        border-radius: 2em;
-        border: solid;
-        border-color: rgba(0, 128, 0, 0.699);
-        background-color: #389a4f65;
-        height: 10em;
-        width: 26em;
-        margin-right: 0px;
-        margin-left: 0px;
-    }
-    .combos_Informacion p {
-        color: green;
-        font-size: 2em;
-        margin-left: 2px;
-        margin-right: 2px;
-    }
-    .contenedorCombos {
-        height: 10em;
-    }
-    .botonCombo {
-        display: block;
-        height: 10em;
-    }
-    .tituloCombos {
-        margin-bottom: 5%;
-        font-size: 4.5em;
-        margin-top: 0;
-    }
+  }
 }
 
 @media only screen and (max-width: 1024px) {
-    .titulo_Slider {
-        font-size: 4em;
-    }
-    .sub_contacto {
-        padding-left: 2.5em;
-    }
-    .tituloCombos {
-        font-size: 47px;
-    }
-    .combos {
-        width: 20em;
-        height: 10.5em;
-        margin: 0;
-        padding: 0;
-        background-color: #389a4f;
-        border-radius: 2em;
-        opacity: 1;
-        transition: opacity 0.25s;
-    }
-    .combos_Informacion {
-        width: 20em;
-        height: 10.5em;
-        margin: 0;
-        padding: 0;
-    }
-    .combos_Informacion p {
-        margin-top: 24px;
-        font-size: 1.7em;
-    }
+  .titulo_Slider {
+    font-size: 4em;
+  }
+  .sub_contacto {
+    padding-left: 2.5em;
+  }
+  .tituloCombos {
+    font-size: 47px;
+  }
+  .combos {
+    width: 20em;
+    height: 10.5em;
+    margin: 0;
+    padding: 0;
+    background-color: #389a4f;
+    border-radius: 2em;
+    opacity: 1;
+    transition: opacity 0.25s;
+  }
+  .combos_Informacion {
+    width: 20em;
+    height: 10.5em;
+    margin: 0;
+    padding: 0;
+  }
+  .combos_Informacion p {
+    margin-top: 24px;
+    font-size: 1.7em;
+  }
 }
 
 @media only screen and (max-width: 992px) {
-    .parallax-container .section {
-        position: absolute;
-        top: 40%;
-    }
-    #index-banner .section {
-        top: 10%;
-    }
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .titulo_Slider {
-        font-size: 3.5em;
-    }
-    .tituloCombos {
-        font-size: 34px;
-    }
-    .combos {
-        width: 15em;
-        height: 10.5em;
-        margin: 0;
-        padding: 0;
-        background-color: #389a4f;
-        border-radius: 2em;
-        opacity: 1;
-        transition: opacity 0.25s;
-    }
-    .combos_Informacion {
-        width: 15em;
-        height: 10.5em;
-        margin: 0;
-        padding: 0;
-    }
-    .combos_Informacion p {
-        margin-top: 24px;
-        font-size: 1.2em;
-    }
-    .parallax-container .parallax img {
-        left: 70% !important;
-    }
+  .titulo_Slider {
+    font-size: 3.5em;
+  }
+  .tituloCombos {
+    font-size: 34px;
+  }
+  .combos {
+    width: 15em;
+    height: 10.5em;
+    margin: 0;
+    padding: 0;
+    background-color: #389a4f;
+    border-radius: 2em;
+    opacity: 1;
+    transition: opacity 0.25s;
+  }
+  .combos_Informacion {
+    width: 15em;
+    height: 10.5em;
+    margin: 0;
+    padding: 0;
+  }
+  .combos_Informacion p {
+    margin-top: 24px;
+    font-size: 1.2em;
+  }
+  .mainContacto {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0em;
+    background-position-y: 24em;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    #index-banner .section {
-        top: 0;
-    }
+  #index-banner .section {
+    top: 0;
+  }
 }
 
 @media only screen and (max-width: 425px) {
-    .titulo_Slider {
-        font-size: 2.4em;
-    }
-    .mainContacto h1 {
-        padding-top: 0.5em;
-        font-size: 3em;
-    }
-    .sub_contacto {
-        padding-left: 1em;
-    }
-    .tituloCombos {
-        font-size: 34px;
-    }
-    .combos {
-        width: 26em;
-        height: 10.5em;
-        margin: 0;
-        padding: 0;
-        background-color: #389a4f;
-        border-radius: 2em;
-        opacity: 1;
-        transition: opacity 0.25s;
-    }
-    .combos_Informacion {
-        width: 26em;
-        height: 10.5em;
-        margin: 0;
-        padding: 0;
-    }
-    .combos_Informacion p {
-        margin-top: 24px;
-    }
-    .parallax-container .parallax img {
-        left: 110%!important;
-    }
+  .titulo_Slider {
+    font-size: 2.4em;
+  }
+  .mainContacto h1 {
+    padding-top: 0.5em;
+    font-size: 3em;
+  }
+  .sub_contacto {
+    padding-left: 1em;
+  }
+  .mainContacto {
+    background-position-y: 47em;
+  }
+  .tituloCombos {
+    font-size: 34px;
+  }
+  .combos {
+    width: 26em;
+    height: 10.5em;
+    margin: 0;
+    padding: 0;
+    background-color: #389a4f;
+    border-radius: 2em;
+    opacity: 1;
+    transition: opacity 0.25s;
+  }
+  .combos_Informacion {
+    width: 26em;
+    height: 10.5em;
+    margin: 0;
+    padding: 0;
+  }
+  .combos_Informacion p {
+    margin-top: 24px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
-    .titulo_Slider {
-        font-size: 2.1em;
-    }
-    .tituloCombos {
-        font-size: 30px;
-    }
-    .combos {
-        width: 22em;
-        height: 10.5em;
-        margin: 0;
-        padding: 0;
-    }
-    .combos_Informacion {
-        width: 22em;
-        height: 10.5em;
-        margin: 0;
-        padding: 0;
-    }
-    .combos_Informacion p {
-        margin-top: 14px;
-    }
-    .parallax-container .parallax img {
-        left: 120%!important;
-    }
+  .titulo_Slider {
+    font-size: 2.1em;
+  }
+  .tituloCombos {
+    font-size: 30px;
+  }
+  .combos {
+    width: 22em;
+    height: 10.5em;
+    margin: 0;
+    padding: 0;
+  }
+  .combos_Informacion {
+    width: 22em;
+    height: 10.5em;
+    margin: 0;
+    padding: 0;
+  }
+  .combos_Informacion p {
+    margin-top: 14px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
-    .titulo_Slider {
-        font-size: 2.3em;
-    }
-    .mainContacto h1 {
-        padding-top: 0.5em;
-        font-size: 2.5em;
-    }
-    .sub_contacto {
-        font-size: 1.2em;
-    }
-    .tituloCombos {
-        font-size: 26px;
-    }
-    .combos {
-        width: 19em;
-        height: 10.5em;
-        margin: 0;
-        padding: 0;
-        background-color: #389a4f;
-        border-radius: 2em;
-        opacity: 1;
-        transition: opacity 0.25s;
-    }
-    .combos_Informacion {
-        width: 19em;
-        height: 10.5em;
-        margin: 0;
-        padding: 0;
-    }
-    .combos_Informacion p {
-        margin-top: 11px;
-    }
-    .parallax-container .parallax img {
-        left: 140%!important;
-    }
+  .titulo_Slider {
+    font-size: 2.3em;
+  }
+  .mainContacto h1 {
+    padding-top: 0.5em;
+    font-size: 2.5em;
+  }
+  .sub_contacto {
+    font-size: 1.2em;
+  }
+  .mainContacto {
+    background-position-y: 50em;
+  }
+  .tituloCombos {
+    font-size: 26px;
+  }
+  .combos {
+    width: 19em;
+    height: 10.5em;
+    margin: 0;
+    padding: 0;
+    background-color: #389a4f;
+    border-radius: 2em;
+    opacity: 1;
+    transition: opacity 0.25s;
+  }
+  .combos_Informacion {
+    width: 19em;
+    height: 10.5em;
+    margin: 0;
+    padding: 0;
+  }
+  .combos_Informacion p {
+    margin-top: 11px;
+  }
 }
-
 
 /******Productos******/
 
 .mainProductos {
-    position: relative;
-    top: 80px;
+  position: relative;
+  top: 80px;
+}
+
+.carritoCompras {
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
 }
 
 #barraCategorias {
-    background-color: white;
-    border-radius: 0em;
-    font-size: 2.5em;
-    font-weight: bold;
+  background-color: white;
+  border-radius: 0em;
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
 .objetoCategorias {
-    font-size: 0.6em;
+  font-size: 0.6em;
 }
 
 .no-shadows {
-    box-shadow: none!important;
+  box-shadow: none !important;
 }
 
 #miCuenta {
-    color: white;
-    background-color: #389a4f;
-    position: relative;
-    bottom: 5px;
+  color: white;
+  background-color: #389a4f;
+  position: relative;
+  bottom: 5px;
+}
+
+#footerProductos {
+  position: relative;
 }
 
 #filtros {
-    border-radius: 0.7em;
-    width: 290px;
-    height: 330px;
-    font-size: 1.2em;
-    position: relative;
-    left: 2%;
-    top: 40px;
+  border-radius: 0.7em;
+  height: 330px;
+  font-size: 1.2em;
 }
 
 #todosLosProductos {
-    width: 100%;
-    color: white;
-    text-decoration: underline;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
 #botonMasBuscados,
@@ -794,169 +594,77 @@ footer.page-footer {
 #botonMenorPrecio,
 #botonMayorPrecio,
 #botonCombos {
-    background-color: #389a4f;
-    width: 260px;
-    text-align: center;
+  background-color: whitesmoke;
+  color: #389a4f;
+  font-weight: bold;
+  width: 260px;
+  text-align: center;
+  max-width: 100%;
 }
 
 #filtroPrecio {
-    color: black;
-    font-weight: bold;
-    position: relative;
-    top: 150px;
-    border: 0px none;
-    width: 17%;
-    left: 0.6%;
+  color: black;
+  font-weight: bold;
+  border: 0px none;
 }
 
 #precio {
-    font-size: 1.5em;
-    text-decoration: underline;
-    text-decoration-color: #389a4f;
-    text-decoration-width: 10em;
-    position: relative;
-    left: 5%;
+  font-size: 1.5em;
 }
 
 #rango {
-    width: 120%;
-    position: relative;
-    left: 8%;
+  justify-content: center;
 }
 
 #guion {
-    font-size: 2em;
+  font-size: 2em;
+  margin: auto;
+}
+
+#guion span {
+  margin: auto;
 }
 
 #precioMax {
-    width: 110px;
+  background-color: white;
+  color: #000;
 }
 
 #precioMin {
-    width: 110px;
+  color: black;
 }
 
 #inputMin,
 #inputMax {
-    box-shadow: none;
-    border: none;
-    border-bottom: none;
+  border-radius: 0em;
+  color: black;
+  border-color: #389a4f;
 }
 
 #botonAplicarFiltro {
-    background-color: #389a4f;
-    width: 300px;
-    position: absolute;
-    left: 7%;
+  background-color: #389a4f;
+  width: 300px;
+  max-width: 100%;
 }
 
 .objetoCatalogo {
-    width: 55%;
+  width: 95%;
+  margin: auto !important;
+}
+
+.objetoCatalogo .card {
+  height: 466px;
+  max-height: 100%;
 }
 
 .precioCatalogo {
-    position: relative;
-    bottom: 47px;
-}
-
-.catalogo {
-    position: relative;
-    bottom: 467px;
-    left: 6%;
-    width: 93%;
+  font-size: 1vw;
+  padding: 0.1em;
 }
 
 .fotoCatalogo {
-    width: 250px;
-    height: 230px;
-}
-
-.productosRecomendados {
-    position: relative;
-    bottom: 450px;
-}
-
-.objetosRecomendados {
-    position: relative;
-    bottom: 350px;
-}
-
-.pagination {
-    position: relative;
-    bottom: 240px;
-}
-
-@media only screen and (max-width: 1330px) {
-    .divFiltros {
-        position: relative;
-        bottom: 400px;
-    }
-    #filtroPrecio {
-        position: absolute;
-        bottom: 300px;
-        left: 500px;
-    }
-    #rango {
-        width: 400px;
-    }
-    .catalogo {
-        position: relative;
-        top: 50px;
-        width: 700px;
-    }
-    .objetoCatalogo {
-        width: 100%;
-    }
-}
-
-
-/* Ivan */
-
-.tituloPag {
-    display: flex;
-    justify-content: center;
-}
-
-.tituloPag h4 {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
-
-.parteArriba {
-    display: flex;
-    justify-content: center;
-}
-
-.parteArriba img {
-    width: 600px;
-    height: 500px;
-}
-
-.parteAbajo {
-    margin-top: 50px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.provincias {
-    background-color: #389a4f;
-    color: cornsilk;
-    padding: 6px;
-}
-
-.parteArriba i {
-    margin-left: 40px;
-    margin-right: 40px;
-    color: #389a4f;
-    position: relative;
-    top: 250px;
-}
-
-.parteAbajoDerecha i {
-    position: relative;
-    bottom: -42px;
-    right: 25px;
-    color: #389a4f;
+  width: 250px !important;
+  height: 230px !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
 }
