@@ -133,8 +133,24 @@
     margin-top: 0;
 }
 
+
+/**Contacto**/
+
 .titulo_contacto {
     margin-top: 1.5em;
+}
+
+.mainContacto h1 {
+    margin: 2.8rem 0 1rem 0 !important;
+}
+
+.mainContacto h5 {
+    margin: 0;
+}
+
+.consulta {
+    margin: 2em;
+    padding-top: 7em;
 }
 
 .consulta textarea {
@@ -187,15 +203,9 @@
 }
 
 .sub_contacto {
-    padding-left: 28.4em;
+    padding-left: 0em !important;
+    padding-bottom: 1em !important;
     font-size: 1.5em;
-}
-
-.mainContacto {
-    background-image: url(https://i.ibb.co/jbMdDC2/fondo-Contacto.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: 0em;
 }
 
 .logo_footer {
@@ -238,13 +248,18 @@
     text-align: center;
 }
 
-.ventajas span {
-    border-bottom: 4px #4caf50 solid;
+.ventajasBold {
+    color: #4caf50;
+    font-weight: bold;
 }
 
-.ventajasBold {
-    color: #fff;
-    font-weight: bold;
+.bold {
+    font-weight: bold!important;
+}
+
+.mi-imagen {
+    -webkit-filter: grayscale(100%);
+    filter: blur(3px);
 }
 
 .ventajasInfo {
@@ -274,36 +289,27 @@
     border-bottom: 4px #4caf50 solid;
 }
 
-.hr-desco {
-    width: 50%;
-    margin: auto;
-}
-
-.contenedor {
-    display: flex;
-    width: 80%;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: auto;
-}
-
-.contenedor .textoVerde {
+.añoss {
     padding: 1em;
-    font-size: 20px;
-    border-radius: 50%;
-    border: 1px #000 solid;
 }
 
-.contenedor i {
-    margin: auto 1em;
+.mt-2 {
+    margin-top: 1em!important;
 }
 
-.contenedor .textoGris {
-    padding: 1em;
-    font-size: 20px;
-    border-radius: 50%;
-    border: 1px #000 solid;
+.mt-1 {
+    margin-top: 5em!important;
+}
+
+.botonDescompo {
+    width: 175px!important;
+    max-width: 100%!important;
+    margin: auto;
+    display: block!important;
+}
+
+.responsive-h3 {
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 425px) {
@@ -361,33 +367,10 @@
     .m4 {
         width: 33.333333333%!important;
     }
-}
-
-
-/*
-@media only screen and (max-width: 1024px) {
-    .mainConoceComo .tituloMaterial {
-        font-size: 2em;
-    }
-    .mainConoceComo .descripcion {
-        text-align: justify;
-        font-size: 1.4em;
-        width: 100%;
-        margin: 0;
+    .grafico {
+        width: 60%;
     }
 }
-
-@media only screen and (max-width: 1440px) {
-    .mainConoceComo .tituloMaterial {
-        font-size: 2em;
-    }
-    .mainConoceComo .descripcion {
-        text-align: justify;
-        font-size: 1.4em;
-        width: 100%;
-        margin: 0;
-    }
-}*/
 
 @media only screen and (max-width: 1920px) {
     .mainConoceComo .tituloMaterial {
@@ -495,12 +478,6 @@ footer.page-footer {
     }
     .consulta {
         color: white;
-    }
-    .mainContacto {
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: 0em;
-        background-position-y: 11em;
     }
     .titulo_Slider {
         font-size: 5em;
@@ -628,11 +605,8 @@ footer.page-footer {
         margin-top: 24px;
         font-size: 1.2em;
     }
-    .mainContacto {
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: 0em;
-        background-position-y: 24em;
+    .parallax-container .parallax img {
+        left: 70% !important;
     }
 }
 
@@ -652,9 +626,6 @@ footer.page-footer {
     }
     .sub_contacto {
         padding-left: 1em;
-    }
-    .mainContacto {
-        background-position-y: 47em;
     }
     .tituloCombos {
         font-size: 34px;
@@ -677,6 +648,9 @@ footer.page-footer {
     }
     .combos_Informacion p {
         margin-top: 24px;
+    }
+    .parallax-container .parallax img {
+        left: 110%!important;
     }
 }
 
@@ -702,6 +676,9 @@ footer.page-footer {
     .combos_Informacion p {
         margin-top: 14px;
     }
+    .parallax-container .parallax img {
+        left: 120%!important;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -714,9 +691,6 @@ footer.page-footer {
     }
     .sub_contacto {
         font-size: 1.2em;
-    }
-    .mainContacto {
-        background-position-y: 50em;
     }
     .tituloCombos {
         font-size: 26px;
@@ -739,6 +713,9 @@ footer.page-footer {
     }
     .combos_Informacion p {
         margin-top: 11px;
+    }
+    .parallax-container .parallax img {
+        left: 140%!important;
     }
 }
 
@@ -959,4 +936,27 @@ footer.page-footer {
     bottom: -42px;
     right: 25px;
     color: #389a4f;
+}
+
+.parteAbajoDerecha p {
+    margin-bottom: -10px;
+}
+
+.parteAbajoDerecha {
+    margin-left: 70px;
+    margin-top: -28px;
+}
+
+.contenedorAbajo {
+    display: flex;
+}
+
+.contenedor-izquierda {
+    margin-left: 40px;
+}
+
+.divMapa {
+    margin-right: 80px;
+    margin-top: 70px;
+    margin-bottom: 80px;
 }
