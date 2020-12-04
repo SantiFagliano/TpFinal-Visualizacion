@@ -37,85 +37,58 @@
     </header>
 
     <main class="main_Home">
-
-        <div class="container section">
-            <div class="row">
-                <div class="col s12">
-
-                    <div class="carousel carousel-slider">
-
-                        <a class="carousel-item">
-                            <img src="img/slider1.jpg" alt="">
-
-                        </a>
-
-                        <a class="carousel-item">
-                            <img src="img/slider2.jpg" alt="">
-
-                        </a>
-
-                        <a class="carousel-item">
-                            <img src="img/slider3.jpg" alt="">
-
-                        </a>
-
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-
-        <div class="contenedorAbajo">
-            <div class="contenedor-izquierda">
-                <div class="container section">
-                    <h2 class="green-text">¿Donde estamos?</h2>
-                    <div class="row">
-                        <div class="col s4 m10">
-
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="img/rutas-senderismo-grazalema.jpg" alt="">
-
-                                </div>
-                                <div class="card-content">
-
-                                    <p>Podés encontrar nuestros locales en diferentes provincias para que disfrutes la experiencia de los productos de Bio Mountain en todo el país. Tenemos sucursales en Ciudad Autónoma de Buenos Aires, Santa Cruz, Rio Negro,
-                                        Mendoza, Neuquen, Salta, Jujuy.
-                                    </p>
-
-                                </div>
-
-
-                            </div>
-
-
+        <section>
+            <div class="container section">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="carousel carousel-slider">
+                            <a class="carousel-item">
+                                <img src="img/slider1.jpg" alt="">
+                            </a>
+                            <a class="carousel-item">
+                                <img src="img/slider2.jpg" alt="">
+                            </a>
+                            <a class="carousel-item">
+                                <img src="img/slider3.jpg" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="parteAbajoDerecha">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p>¿No encontrás tu provincia?
-                        <br> Podés pedirnos una sucursal mediante <a class="green-text" href="contacto.html">contacto</a>.</p>
-                    <i class="fas fa-envelope"></i>
-                    <p>Si necesitás más packagings podés pedirla vía <a class="green-text" href="contacto.html">email</a>.</p>
-                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <article class="col s12 m4 row">
+                    <div class="col s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/rutas-senderismo-grazalema.jpg">
+                            </div>
+                            <div class="card-content">
+                                <p>Podés encontrar nuestros locales en diferentes provincias para que disfrutes la experiencia de los productos de Bio Mountain en todo el país. Tenemos sucursales en Ciudad Autónoma de Buenos Aires, Santa Cruz, Rio Negro,
+                                    Mendoza, Neuquen, Salta, Jujuy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 parteAbajoDerecha">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>¿No encontrás tu provincia?
+                            <br> Podés pedirnos una sucursal mediante <a class="green-text" href="contacto.html">contacto</a>.</p>
+                        <i class="fas fa-envelope"></i>
+                        <p>Si necesitás más packagings podés pedirla vía <a class="green-text" href="contacto.html">email</a>.</p>
+                    </div>
+                </article>
+                <article class="col s12 m8 center">
+                    <div class="divMapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3284.4162997818557!2d-58.446278632520794!3d-34.593633191737105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5f680cb2679%3A0x8b0a61b3eb088c0!2sHumboldt%20590%2C%20C1414%20CSL%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1607063896387!5m2!1ses-419!2sar"
+                            width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </article>
             </div>
 
-            <div class="divMapa">
+        </section>
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d410.5526966884861!2d-58.4459856!3d-34.5934998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5f680cb2679%3A0x8b0a61b3eb088c0!2sHumboldt%20590%2C%20C1414%20CSL%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1607042178281!5m2!1ses-419!2sar"
-                    width="650" height="750" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
-            </div>
-
-
-        </div>
-
-
-
-
-        </select>
 
     </main>
 
@@ -154,17 +127,10 @@
     </footer>
 
     <!--  Scripts-->
-    <script src="js/materialize.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.carousel');
-            var instances = M.Carousel.init(elems, {
-                indicators: true,
-
-            });
-        });
-    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/materialize.min.js "></script>
+    <script src="js/materialize.js "></script>
+    <script src="js/script.js"></script>
 
 </body>
 

@@ -935,21 +935,10 @@ footer.page-footer {
     margin-bottom: -10px;
 }
 
-.parteAbajoDerecha {
-    margin-left: 70px;
-    margin-top: -28px;
-}
-
-.contenedorAbajo {
-    display: flex;
-}
-
 .contenedor-izquierda {
     margin-left: 40px;
 }
 
-.divMapa {
-    margin-right: 80px;
-    margin-top: 70px;
-    margin-bottom: 80px;
+.divMapa iframe {
+    max-width: 100%;
 }
