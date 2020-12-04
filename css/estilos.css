@@ -123,8 +123,8 @@
 .combos_Informacion p {
     color: green;
     font-size: 2em;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .contenedorCombos {
@@ -186,26 +186,26 @@
 
 .nombre input {
     padding: 3em;
-    padding-left: 1em!important;
+    padding-left: 1em !important;
     background-color: white;
     opacity: 0.5;
 }
 
 .email input {
     background-color: white;
-    padding-left: 1em!important;
+    padding-left: 1em !important;
     opacity: 0.5;
 }
 
 .provincia input {
     background-color: white;
-    padding-left: 1em!important;
+    padding-left: 1em !important;
     opacity: 0.5;
 }
 
 .tel input {
     background-color: white;
-    padding-left: 1em!important;
+    padding-left: 1em !important;
     opacity: 0.5;
 }
 
@@ -271,9 +271,18 @@
     font-weight: bold;
 }
 
+.bold {
+    font-weight: bold !important;
+}
+
+.mi-imagen {
+    -webkit-filter: grayscale(100%);
+    filter: blur(3px);
+}
+
 .ventajasInfo {
     display: flex;
-    justify-content: space-between!important;
+    justify-content: space-between !important;
 }
 
 .ventajasInfo .center i {
@@ -286,8 +295,8 @@
 
 .ventajasInfo .m-2 {
     margin: 0.5em;
-    width: 300px!important;
-    padding: 1em!important;
+    width: 300px !important;
+    padding: 1em !important;
 }
 
 .p-2 {
@@ -298,36 +307,27 @@
     border-bottom: 4px #4caf50 solid;
 }
 
-.hr-desco {
-    width: 50%;
-    margin: auto;
-}
-
-.contenedor {
-    display: flex;
-    width: 80%;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: auto;
-}
-
-.contenedor .textoVerde {
+.añoss {
     padding: 1em;
-    font-size: 20px;
-    border-radius: 50%;
-    border: 1px #000 solid;
 }
 
-.contenedor i {
-    margin: auto 1em;
+.mt-2 {
+    margin-top: 1em !important;
 }
 
-.contenedor .textoGris {
-    padding: 1em;
-    font-size: 20px;
-    border-radius: 50%;
-    border: 1px #000 solid;
+.mt-1 {
+    margin-top: 5em !important;
+}
+
+.botonDescompo {
+    width: 175px !important;
+    max-width: 100% !important;
+    margin: auto;
+    display: block !important;
+}
+
+.responsive-h3 {
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 425px) {
@@ -360,10 +360,10 @@
 
 @media only screen and (min-width: 600px) {
     .m8 {
-        width: 50%!important;
+        width: 50% !important;
     }
     .m4 {
-        width: 50%!important;
+        width: 50% !important;
     }
 }
 
@@ -380,38 +380,15 @@
 
 @media only screen and (min-width: 770px) {
     .m8 {
-        width: 66.6666666667%!important;
+        width: 66.6666666667% !important;
     }
     .m4 {
-        width: 33.333333333%!important;
+        width: 33.333333333% !important;
+    }
+    .grafico {
+        width: 60%;
     }
 }
-
-
-/*
-@media only screen and (max-width: 1024px) {
-    .mainConoceComo .tituloMaterial {
-        font-size: 2em;
-    }
-    .mainConoceComo .descripcion {
-        text-align: justify;
-        font-size: 1.4em;
-        width: 100%;
-        margin: 0;
-    }
-}
-
-@media only screen and (max-width: 1440px) {
-    .mainConoceComo .tituloMaterial {
-        font-size: 2em;
-    }
-    .mainConoceComo .descripcion {
-        text-align: justify;
-        font-size: 1.4em;
-        width: 100%;
-        margin: 0;
-    }
-}*/
 
 @media only screen and (max-width: 1920px) {
     .mainConoceComo .tituloMaterial {
@@ -476,9 +453,9 @@ footer.page-footer {
 }
 
 .sidenav-overlay {
-    background-color: #fff!important;
-    color: #000!important;
-    opacity: 0.5!important;
+    background-color: #fff !important;
+    color: #000 !important;
+    opacity: 0.5 !important;
 }
 
 @media only screen and (max-width: 2880px) {
@@ -560,8 +537,8 @@ footer.page-footer {
     .combos_Informacion p {
         color: green;
         font-size: 2em;
-        margin-left: 2px;
-        margin-right: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .contenedorCombos {
         height: 10em;
@@ -784,6 +761,11 @@ footer.page-footer {
     top: 80px;
 }
 
+.carritoCompras {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+
 #barraCategorias {
     background-color: white;
     border-radius: 0em;
@@ -796,7 +778,7 @@ footer.page-footer {
 }
 
 .no-shadows {
-    box-shadow: none!important;
+    box-shadow: none !important;
 }
 
 #miCuenta {
@@ -806,21 +788,20 @@ footer.page-footer {
     bottom: 5px;
 }
 
+#footerProductos {
+    position: relative;
+}
+
 #filtros {
     border-radius: 0.7em;
-    width: 290px;
     height: 330px;
     font-size: 1.2em;
-    position: relative;
-    left: 2%;
-    top: 40px;
 }
 
 #todosLosProductos {
-    width: 100%;
-    color: white;
-    text-decoration: underline;
+    color: black;
     font-weight: bold;
+    font-size: 1.3em;
 }
 
 #botonMasBuscados,
@@ -828,119 +809,79 @@ footer.page-footer {
 #botonMenorPrecio,
 #botonMayorPrecio,
 #botonCombos {
-    background-color: #389a4f;
+    background-color: whitesmoke;
+    color: #389a4f;
+    font-weight: bold;
     width: 260px;
     text-align: center;
+    max-width: 100%;
 }
 
 #filtroPrecio {
     color: black;
     font-weight: bold;
-    position: relative;
-    top: 150px;
     border: 0px none;
-    width: 17%;
-    left: 0.6%;
 }
 
 #precio {
     font-size: 1.5em;
-    text-decoration: underline;
-    text-decoration-color: #389a4f;
-    text-decoration-width: 10em;
-    position: relative;
-    left: 5%;
 }
 
 #rango {
-    width: 120%;
-    position: relative;
-    left: 8%;
+    justify-content: center;
 }
 
 #guion {
     font-size: 2em;
+    margin: auto;
+}
+
+#guion span {
+    margin: auto;
 }
 
 #precioMax {
-    width: 110px;
+    background-color: white;
+    color: #000;
 }
 
 #precioMin {
-    width: 110px;
+    color: black;
 }
 
 #inputMin,
 #inputMax {
-    box-shadow: none;
-    border: none;
-    border-bottom: none;
+    border-radius: 0em;
+    color: black;
+    border-color: #389a4f;
 }
 
 #botonAplicarFiltro {
     background-color: #389a4f;
     width: 300px;
-    position: absolute;
-    left: 7%;
+    max-width: 100%;
 }
 
 .objetoCatalogo {
-    width: 55%;
+    width: 95%;
+    margin: auto !important;
+}
+
+.objetoCatalogo .card {
+    height: 466px;
+    max-height: 100%;
 }
 
 .precioCatalogo {
-    position: relative;
-    bottom: 47px;
-}
-
-.catalogo {
-    position: relative;
-    bottom: 467px;
-    left: 6%;
-    width: 93%;
+    font-size: 1vw;
+    padding: 0.1em;
 }
 
 .fotoCatalogo {
-    width: 250px;
-    height: 230px;
-}
-
-.productosRecomendados {
-    position: relative;
-    bottom: 450px;
-}
-
-.objetosRecomendados {
-    position: relative;
-    bottom: 350px;
-}
-
-.pagination {
-    position: relative;
-    bottom: 240px;
-}
-
-@media only screen and (max-width: 1330px) {
-    .divFiltros {
-        position: relative;
-        bottom: 400px;
-    }
-    #filtroPrecio {
-        position: absolute;
-        bottom: 300px;
-        left: 500px;
-    }
-    #rango {
-        width: 400px;
-    }
-    .catalogo {
-        position: relative;
-        top: 50px;
-        width: 700px;
-    }
-    .objetoCatalogo {
-        width: 100%;
-    }
+    width: 250px !important;
+    height: 230px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
 }
 
 
@@ -993,4 +934,27 @@ footer.page-footer {
     bottom: -42px;
     right: 25px;
     color: #389a4f;
+}
+
+.parteAbajoDerecha p {
+    margin-bottom: -10px;
+}
+
+.parteAbajoDerecha {
+    margin-left: 70px;
+    margin-top: -28px;
+}
+
+.contenedorAbajo {
+    display: flex;
+}
+
+.contenedor-izquierda {
+    margin-left: 40px;
+}
+
+.divMapa {
+    margin-right: 80px;
+    margin-top: 70px;
+    margin-bottom: 80px;
 }

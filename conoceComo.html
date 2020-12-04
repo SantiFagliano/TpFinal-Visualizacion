@@ -17,7 +17,7 @@
             <div class="nav-wrapper container">
                 <a class="black-text" href="index.html" class=""><img class="logo_Nav" src="img/logoGrande.jpg" /></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a class="a_menu" href="index.html">Inicio</a></li>
+                    <li class="active"><a class="a_menu" href="index.html">Inicio</a></li>
                     <li><a class="a_menu" href="productos.html">Productos</a></li>
                     <li><a class="a_menu" href="contacto.html">Contacto</a></li>
                     <li><a class="a_menu" href="sucursales.html">Sucursales</a></li>
@@ -36,17 +36,35 @@
     </header>
 
     <main class="mainConoceComo">
-        <section class="row ">
-            <article class="col s12 m4 ">
-                <img src="img/tpsMaterial.jpg" alt="Tps - Almidon" class="responsive-img">
+        <section class="">
+            <article class="col s12 m6">
+                <div class="slider">
+                    <ul class="slides">
+                        <li>
+                            <img class="mi-imagen" src="img/tpsMaterial.jpg">
+                            <div class="caption right-align">
+                                <h5 class="black-text">Nuestros envases estan hechos con </h5>
+                                <h3 class="black-text bold">Almidón termoplástico (TPS)</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="mi-imagen" src="https://sc01.alicdn.com/kf/U5ad921573ba9459c8046327892bb5800r.png">
+                            <div class="caption center-align">
+                                <h5 class="black-text">El almidón esta compuesto por</h5>
+                                <h3 class="black-text bold"> dos isómeros, amilosa y amilopectina</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="mi-imagen" src="https://www.rajapack.es/blog-es/wp-content/uploads/2019/09/tipos-plasticos-biodegradables-colores.jpg">
+                            <div class="caption left-align">
+                                <h4 class="black-text  "> Como bioplástico,</h4>
+                                <h3 class="black-text bold ">puede ser procesado y convertido en plástico.</h3>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </article>
-            <article class="col s12 m8">
-                <p><span class="tituloMaterial ">¿Como estan hechos nuestros productos?</span></p>
-                <p class="descripcion green">Nuestros envases hechos con materiales termopl&aacute;sticos a base de almidon procedente de
-                    <span class="Conocebold"> or&iacute;genes naturales</span>. Tambien conocidos como
-                    <span class="Conocebold">TPS</span>.
-                </p>
-            </article>
+
         </section>
         <section class="">
             <h3 class="ventajas">VENTAJAS</h3>
@@ -89,54 +107,51 @@
                 </div>
             </div>
         </section>
+        <section class="container">
+            <div>
+                <h3 class="ventajas responsive-img">DESCOMPOSICI&Oacute;N </h3>
 
-        <section>
-            <h3 class="ventajas">Diferencias con el plastico</h3>
-            <h5 class="p-2"><span class="bordeH5">Descomposicion</span></h5>
-            <article>
-                <div class="contenedor">
-                    <p class="textoVerde green">Tps</p>
-                    <i class="fas fa-arrow-right"></i>
-                    <p class="textoGris grey lighten-1">6 a 12 meses</p>
-
-                </div>
-                <hr class="hr-desco">
-                <div class="contenedor">
-                    <p class="textoVerde green">Papel</p>
-                    <i class="fas fa-arrow-right"></i>
-                    <p class="textoGris grey lighten-1">1 año</p>
-
-                </div>
-                <hr class="hr-desco">
-                <div class="contenedor">
-                    <p class="textoVerde green">Bolsa de <br> plastico</p>
-                    <i class="fas fa-arrow-right"></i>
-                    <p class="textoGris grey lighten-1">400 años</p>
-
-                </div>
-                <hr class="hr-desco">
-                <div class="contenedor">
-                    <p class="textoVerde green">Botella de <br>plastico</p>
-                    <i class="fas fa-arrow-right"></i>
-                    <p class="textoGris grey lighten-1">100 a <br>1000 años</p>
-
-                </div>
-                <hr class="hr-desco">
-                <div class="contenedor">
-                    <p class="textoVerde green">Vasos <br>desechables</p>
-                    <i class="fas fa-arrow-right"></i>
-                    <p class="textoGris grey lighten-1">1000 años</p>
-
-                </div>
-                <hr class="hr-desco">
-                <div class="contenedor">
-                    <p class="textoVerde green">Botella de<br> vidrio</p>
-                    <i class="fas fa-arrow-right"></i>
-                    <p class="textoGris grey lighten-1">4000 años</p>
-
-                </div>
+            </div>
+            <article class="center">
+                <img class="responsive-img grafico" src="img/grafico.png" alt="">
             </article>
         </section>
+        <!--
+        <section class="container mt-1">
+            <article>
+                <div>
+                    <h3 class="ventajas">DESCOMPOSICI&Oacute;N </h3>
+                    <p class="grey-text">Descubre el tiempo que tardan estos materiales en descomponerse clickeandolos o pasando sobre ellos.
+                    </p>
+                </div>
+                <div class="row añoss">
+                    <div class="col s12 m4  mt-2">
+                        <a class="btn tooltipped botonDescompo green lighten-1" data-position="bottom" data-tooltip="6 a 12 meses">Tps</a>
+                    </div>
+                    <div class="col s12 m4 mt-2">
+                        <a class="btn tooltipped botonDescompo green lighten-1" data-position="bottom" data-tooltip="1 año">Papel</a>
+                    </div>
+                    <div class="col s12 m4 mt-2">
+                        <a class="btn tooltipped botonDescompo green lighten-1" data-position="bottom" data-tooltip="400 años">Bolsa
+                            Plastico</a>
+                    </div>
+
+                </div>
+                <div class="row añoss">
+                    <div class="col s12 m4 mt-2">
+                        <a class="btn tooltipped botonDescompo green lighten-1" data-position="bottom" data-tooltip="100 a 1000 años">Botella
+                            Plastico</a>
+                    </div>
+                    <div class="col s12 m4 mt-2">
+                        <a class="btn tooltipped botonDescompo green lighten-1" data-position="bottom" data-tooltip="1000 años">Vasos Desechables</a>
+                    </div>
+                    <div class="col s12 m4 mt-2">
+                        <a class="btn tooltipped botonDescompo green lighten-1" data-position="bottom" data-tooltip="4000 años">Botella Vidrio</a>
+                    </div>
+                </div>
+            </article>
+
+        </section>-->
     </main>
 
     <footer class="page-footer green ">
@@ -173,8 +188,10 @@
     </footer>
 
     <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="js/materialize.min.js "></script>
     <script src="js/materialize.js "></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
