@@ -114,8 +114,8 @@
 .combos_Informacion p {
     color: green;
     font-size: 2em;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .contenedorCombos {
@@ -519,8 +519,8 @@ footer.page-footer {
     .combos_Informacion p {
         color: green;
         font-size: 2em;
-        margin-left: 2px;
-        margin-right: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .contenedorCombos {
         height: 10em;
@@ -709,7 +709,6 @@ footer.page-footer {
         width: 19em;
         height: 10.5em;
         margin: 0;
-        padding: 0;
     }
     .combos_Informacion p {
         margin-top: 11px;
