@@ -17,6 +17,15 @@
     margin: auto;
 }
 
+.redes-footer {
+    margin-top: 4em;
+}
+
+.redes-footer a {
+    padding: 0.5em;
+    font-size: 2em;
+}
+
 .contenedor_Combos {
     width: fit-content;
     height: fit-content;
@@ -136,16 +145,18 @@
 
 /**Contacto**/
 
-.titulo_contacto {
-    margin-top: 1.5em;
-}
-
 .mainContacto h1 {
-    margin: 2.8rem 0 1rem 0 !important;
+    margin-block-start: 1.5em !important;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .mainContacto h5 {
     margin: 0;
+}
+
+.parallax-container .parallax img {
+    bottom: 0% !important;
 }
 
 .consulta {
@@ -209,9 +220,16 @@
 }
 
 .logo_footer {
-    height: 3.8em;
-    margin-right: 5px;
-    float: left;
+    height: 5em;
+    margin-top: 3em;
+}
+
+.page-footer a {
+    color: white;
+}
+
+.page-footer a:hover {
+    color: black;
 }
 
 
@@ -566,6 +584,15 @@ footer.page-footer {
     .sub_contacto {
         padding-left: 2.5em;
     }
+    .parallax-container .parallax img {
+        left: 38% !important;
+    }
+    .redes-footer {
+        margin-top: 3em;
+    }
+    .redes-footer a {
+        padding: 0.4em;
+    }
     .tituloCombos {
         font-size: 47px;
     }
@@ -608,6 +635,13 @@ footer.page-footer {
     .tituloCombos {
         font-size: 34px;
     }
+    .logo_footer {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .redes-footer {
+        margin-top: 1em;
+    }
     .combos {
         width: 15em;
         height: 10.5em;
@@ -629,7 +663,7 @@ footer.page-footer {
         font-size: 1.2em;
     }
     .parallax-container .parallax img {
-        left: 70% !important;
+        left: 20% !important;
     }
 }
 
@@ -673,7 +707,7 @@ footer.page-footer {
         margin-top: 24px;
     }
     .parallax-container .parallax img {
-        left: 110%!important;
+        left: -40% !important;
     }
 }
 
@@ -700,7 +734,7 @@ footer.page-footer {
         margin-top: 14px;
     }
     .parallax-container .parallax img {
-        left: 120%!important;
+        left: -50% !important;
     }
 }
 
@@ -738,7 +772,7 @@ footer.page-footer {
         margin-top: 11px;
     }
     .parallax-container .parallax img {
-        left: 140%!important;
+        left: -70% !important;
     }
 }
 
