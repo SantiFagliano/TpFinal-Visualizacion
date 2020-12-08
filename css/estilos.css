@@ -935,6 +935,15 @@ footer.page-footer {
     margin-bottom: -10px;
 }
 
+.parteAbajoDerecha {
+    margin-left: 70px;
+    margin-top: -28px;
+}
+
+.contenedorAbajo {
+    display: flex;
+}
+
 .contenedor-izquierda {
     margin-left: 40px;
 }
@@ -949,8 +958,4 @@ footer.page-footer {
     position: relative;
     bottom: 35px;
     width: 100px;
-}
-
-.divMapa iframe {
-    max-width: 100%;
 }
