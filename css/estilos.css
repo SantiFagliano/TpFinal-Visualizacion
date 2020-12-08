@@ -754,6 +754,21 @@ footer.page-footer {
 }
 
 
+/******Carrito******/
+
+.border-buttom-carrito {
+    border-bottom: 2px solid #000!important;
+}
+
+.mt-1-carrito {
+    margin-top: 2em;
+}
+
+.small-contador {
+    font-size: 3rem;
+}
+
+
 /******Productos******/
 
 .carritoCompras {
