@@ -754,6 +754,21 @@ footer.page-footer {
 }
 
 
+/******Carrito******/
+
+.border-buttom-carrito {
+    border-bottom: 2px solid #000!important;
+}
+
+.mt-1-carrito {
+    margin-top: 2em;
+}
+
+.small-contador {
+    font-size: 3rem;
+}
+
+
 /******Productos******/
 
 .carritoCompras {
@@ -935,10 +950,27 @@ footer.page-footer {
     margin-bottom: -10px;
 }
 
+.parteAbajoDerecha {
+    margin-left: 70px;
+    margin-top: -28px;
+}
+
+.contenedorAbajo {
+    display: flex;
+}
+
 .contenedor-izquierda {
     margin-left: 40px;
 }
 
-.divMapa iframe {
-    max-width: 100%;
+.divMapa {
+    margin-right: 80px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.divMapa a {
+    position: relative;
+    bottom: 35px;
+    width: 100px;
 }
