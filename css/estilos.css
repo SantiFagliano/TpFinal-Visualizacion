@@ -17,6 +17,15 @@
     margin: auto;
 }
 
+.redes-footer {
+    margin-top: 4em;
+}
+
+.redes-footer a {
+    padding: 0.5em;
+    font-size: 2em;
+}
+
 .contenedor_Combos {
     width: fit-content;
     height: fit-content;
@@ -114,8 +123,8 @@
 .combos_Informacion p {
     color: green;
     font-size: 2em;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .contenedorCombos {
@@ -136,16 +145,18 @@
 
 /**Contacto**/
 
-.titulo_contacto {
-    margin-top: 1.5em;
-}
-
 .mainContacto h1 {
-    margin: 2.8rem 0 1rem 0 !important;
+    margin-block-start: 1.5em !important;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .mainContacto h5 {
     margin: 0;
+}
+
+.parallax-container .parallax img {
+    bottom: 0% !important;
 }
 
 .consulta {
@@ -175,26 +186,26 @@
 
 .nombre input {
     padding: 3em;
-    padding-left: 1em!important;
+    padding-left: 1em !important;
     background-color: white;
     opacity: 0.5;
 }
 
 .email input {
     background-color: white;
-    padding-left: 1em!important;
+    padding-left: 1em !important;
     opacity: 0.5;
 }
 
 .provincia input {
     background-color: white;
-    padding-left: 1em!important;
+    padding-left: 1em !important;
     opacity: 0.5;
 }
 
 .tel input {
     background-color: white;
-    padding-left: 1em!important;
+    padding-left: 1em !important;
     opacity: 0.5;
 }
 
@@ -209,9 +220,16 @@
 }
 
 .logo_footer {
-    height: 3.8em;
-    margin-right: 5px;
-    float: left;
+    height: 5em;
+    margin-top: 3em;
+}
+
+.page-footer a {
+    color: white;
+}
+
+.page-footer a:hover {
+    color: black;
 }
 
 
@@ -254,7 +272,7 @@
 }
 
 .bold {
-    font-weight: bold!important;
+    font-weight: bold !important;
 }
 
 .mi-imagen {
@@ -264,7 +282,7 @@
 
 .ventajasInfo {
     display: flex;
-    justify-content: space-between!important;
+    justify-content: space-between !important;
 }
 
 .ventajasInfo .center i {
@@ -277,8 +295,8 @@
 
 .ventajasInfo .m-2 {
     margin: 0.5em;
-    width: 300px!important;
-    padding: 1em!important;
+    width: 300px !important;
+    padding: 1em !important;
 }
 
 .p-2 {
@@ -294,18 +312,18 @@
 }
 
 .mt-2 {
-    margin-top: 1em!important;
+    margin-top: 1em !important;
 }
 
 .mt-1 {
-    margin-top: 5em!important;
+    margin-top: 5em !important;
 }
 
 .botonDescompo {
-    width: 175px!important;
-    max-width: 100%!important;
+    width: 175px !important;
+    max-width: 100% !important;
     margin: auto;
-    display: block!important;
+    display: block !important;
 }
 
 .responsive-h3 {
@@ -342,10 +360,10 @@
 
 @media only screen and (min-width: 600px) {
     .m8 {
-        width: 50%!important;
+        width: 50% !important;
     }
     .m4 {
-        width: 50%!important;
+        width: 50% !important;
     }
 }
 
@@ -362,10 +380,10 @@
 
 @media only screen and (min-width: 770px) {
     .m8 {
-        width: 66.6666666667%!important;
+        width: 66.6666666667% !important;
     }
     .m4 {
-        width: 33.333333333%!important;
+        width: 33.333333333% !important;
     }
     .grafico {
         width: 60%;
@@ -435,9 +453,9 @@ footer.page-footer {
 }
 
 .sidenav-overlay {
-    background-color: #fff!important;
-    color: #000!important;
-    opacity: 0.5!important;
+    background-color: #fff !important;
+    color: #000 !important;
+    opacity: 0.5 !important;
 }
 
 @media only screen and (max-width: 2880px) {
@@ -519,8 +537,8 @@ footer.page-footer {
     .combos_Informacion p {
         color: green;
         font-size: 2em;
-        margin-left: 2px;
-        margin-right: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .contenedorCombos {
         height: 10em;
@@ -542,6 +560,15 @@ footer.page-footer {
     }
     .sub_contacto {
         padding-left: 2.5em;
+    }
+    .parallax-container .parallax img {
+        left: 38% !important;
+    }
+    .redes-footer {
+        margin-top: 3em;
+    }
+    .redes-footer a {
+        padding: 0.4em;
     }
     .tituloCombos {
         font-size: 47px;
@@ -585,6 +612,13 @@ footer.page-footer {
     .tituloCombos {
         font-size: 34px;
     }
+    .logo_footer {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .redes-footer {
+        margin-top: 1em;
+    }
     .combos {
         width: 15em;
         height: 10.5em;
@@ -606,7 +640,7 @@ footer.page-footer {
         font-size: 1.2em;
     }
     .parallax-container .parallax img {
-        left: 70% !important;
+        left: 20% !important;
     }
 }
 
@@ -650,7 +684,7 @@ footer.page-footer {
         margin-top: 24px;
     }
     .parallax-container .parallax img {
-        left: 110%!important;
+        left: -40% !important;
     }
 }
 
@@ -677,7 +711,7 @@ footer.page-footer {
         margin-top: 14px;
     }
     .parallax-container .parallax img {
-        left: 120%!important;
+        left: -50% !important;
     }
 }
 
@@ -715,16 +749,16 @@ footer.page-footer {
         margin-top: 11px;
     }
     .parallax-container .parallax img {
-        left: 140%!important;
+        left: -70% !important;
     }
 }
 
 
 /******Productos******/
 
-.mainProductos {
-    position: relative;
-    top: 80px;
+.carritoCompras {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
 }
 
 #barraCategorias {
@@ -739,7 +773,7 @@ footer.page-footer {
 }
 
 .no-shadows {
-    box-shadow: none!important;
+    box-shadow: none !important;
 }
 
 #miCuenta {
@@ -749,21 +783,20 @@ footer.page-footer {
     bottom: 5px;
 }
 
+#footerProductos {
+    position: relative;
+}
+
 #filtros {
     border-radius: 0.7em;
-    width: 290px;
     height: 330px;
     font-size: 1.2em;
-    position: relative;
-    left: 2%;
-    top: 40px;
 }
 
 #todosLosProductos {
-    width: 100%;
-    color: white;
-    text-decoration: underline;
+    color: black;
     font-weight: bold;
+    font-size: 1.3em;
 }
 
 #botonMasBuscados,
@@ -771,119 +804,79 @@ footer.page-footer {
 #botonMenorPrecio,
 #botonMayorPrecio,
 #botonCombos {
-    background-color: #389a4f;
+    background-color: whitesmoke;
+    color: #389a4f;
+    font-weight: bold;
     width: 260px;
     text-align: center;
+    max-width: 100%;
 }
 
 #filtroPrecio {
     color: black;
     font-weight: bold;
-    position: relative;
-    top: 150px;
     border: 0px none;
-    width: 17%;
-    left: 0.6%;
 }
 
 #precio {
     font-size: 1.5em;
-    text-decoration: underline;
-    text-decoration-color: #389a4f;
-    text-decoration-width: 10em;
-    position: relative;
-    left: 5%;
 }
 
 #rango {
-    width: 120%;
-    position: relative;
-    left: 8%;
+    justify-content: center;
 }
 
 #guion {
     font-size: 2em;
+    margin: auto;
+}
+
+#guion span {
+    margin: auto;
 }
 
 #precioMax {
-    width: 110px;
+    background-color: white;
+    color: #000;
 }
 
 #precioMin {
-    width: 110px;
+    color: black;
 }
 
 #inputMin,
 #inputMax {
-    box-shadow: none;
-    border: none;
-    border-bottom: none;
+    border-radius: 0em;
+    color: black;
+    border-color: #389a4f;
 }
 
 #botonAplicarFiltro {
     background-color: #389a4f;
     width: 300px;
-    position: absolute;
-    left: 7%;
+    max-width: 100%;
 }
 
 .objetoCatalogo {
-    width: 55%;
+    width: 95%;
+    margin: auto !important;
+}
+
+.objetoCatalogo .card {
+    height: 466px;
+    max-height: 100%;
 }
 
 .precioCatalogo {
-    position: relative;
-    bottom: 47px;
-}
-
-.catalogo {
-    position: relative;
-    bottom: 467px;
-    left: 6%;
-    width: 93%;
+    font-size: 1vw;
+    padding: 0.1em;
 }
 
 .fotoCatalogo {
-    width: 250px;
-    height: 230px;
-}
-
-.productosRecomendados {
-    position: relative;
-    bottom: 450px;
-}
-
-.objetosRecomendados {
-    position: relative;
-    bottom: 350px;
-}
-
-.pagination {
-    position: relative;
-    bottom: 240px;
-}
-
-@media only screen and (max-width: 1330px) {
-    .divFiltros {
-        position: relative;
-        bottom: 400px;
-    }
-    #filtroPrecio {
-        position: absolute;
-        bottom: 300px;
-        left: 500px;
-    }
-    #rango {
-        width: 400px;
-    }
-    .catalogo {
-        position: relative;
-        top: 50px;
-        width: 700px;
-    }
-    .objetoCatalogo {
-        width: 100%;
-    }
+    width: 250px !important;
+    height: 230px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
 }
 
 
@@ -942,15 +935,6 @@ footer.page-footer {
     margin-bottom: -10px;
 }
 
-.parteAbajoDerecha {
-    margin-left: 70px;
-    margin-top: -28px;
-}
-
-.contenedorAbajo {
-    display: flex;
-}
-
 .contenedor-izquierda {
     margin-left: 40px;
 }
@@ -965,4 +949,8 @@ footer.page-footer {
     position: relative;
     bottom: 35px;
     width: 100px;
+}
+
+.divMapa iframe {
+    max-width: 100%;
 }
