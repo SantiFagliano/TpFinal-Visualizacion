@@ -954,6 +954,18 @@ footer.page-footer {
     margin-left: 40px;
 }
 
+.divMapa {
+    margin-right: 80px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.divMapa a {
+    position: relative;
+    bottom: 35px;
+    width: 100px;
+}
+
 .divMapa iframe {
     max-width: 100%;
 }
