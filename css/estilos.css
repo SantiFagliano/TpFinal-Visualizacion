@@ -772,46 +772,48 @@ footer.page-footer {
 /******Productos******/
 
 .carritoCompras {
-    margin-top: 0.7em;
-    margin-bottom: 0.7em;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
 }
 
 #barraCategorias {
-    background-color: white;
-    border-radius: 0em;
-    font-size: 2.5em;
-    font-weight: bold;
+  background-color: transparent;
+  border-radius: 0em;
+  font-size: 2.5em;
+  font-weight: bold;
+  position: relative;
+  top: 90px;
 }
 
 .objetoCategorias {
-    font-size: 0.6em;
+  font-size: 0.6em;
 }
 
 .no-shadows {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 #miCuenta {
-    color: white;
-    background-color: #389a4f;
-    position: relative;
-    bottom: 5px;
+  color: white;
+  background-color: #389a4f;
+  position: relative;
+  bottom: 5px;
 }
 
 #footerProductos {
-    position: relative;
+  position: relative;
 }
 
 #filtros {
-    border-radius: 0.7em;
-    height: 330px;
-    font-size: 1.2em;
+  border-radius: 0.7em;
+  height: 330px;
+  font-size: 1.2em;
 }
 
 #todosLosProductos {
-    color: black;
-    font-weight: bold;
-    font-size: 1.3em;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
 #botonMasBuscados,
@@ -819,79 +821,79 @@ footer.page-footer {
 #botonMenorPrecio,
 #botonMayorPrecio,
 #botonCombos {
-    background-color: whitesmoke;
-    color: #389a4f;
-    font-weight: bold;
-    width: 260px;
-    text-align: center;
-    max-width: 100%;
+  background-color: whitesmoke;
+  color: #389a4f;
+  font-weight: bold;
+  width: 260px;
+  text-align: center;
+  max-width: 100%;
 }
 
 #filtroPrecio {
-    color: black;
-    font-weight: bold;
-    border: 0px none;
+  color: black;
+  font-weight: bold;
+  border: 0px none;
 }
 
 #precio {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 #rango {
-    justify-content: center;
+  justify-content: center;
 }
 
 #guion {
-    font-size: 2em;
-    margin: auto;
+  font-size: 2em;
+  margin: auto;
 }
 
 #guion span {
-    margin: auto;
+  margin: auto;
 }
 
 #precioMax {
-    background-color: white;
-    color: #000;
+  background-color: white;
+  color: #000;
 }
 
 #precioMin {
-    color: black;
+  color: black;
 }
 
 #inputMin,
 #inputMax {
-    border-radius: 0em;
-    color: black;
-    border-color: #389a4f;
+  border-radius: 0em;
+  color: black;
+  border-color: #389a4f;
 }
 
 #botonAplicarFiltro {
-    background-color: #389a4f;
-    width: 300px;
-    max-width: 100%;
+  background-color: #389a4f;
+  width: 300px;
+  max-width: 100%;
 }
 
 .objetoCatalogo {
-    width: 95%;
-    margin: auto !important;
+  width: 95%;
+  margin: auto !important;
 }
 
 .objetoCatalogo .card {
-    height: 466px;
-    max-height: 100%;
+  height: 466px;
+  max-height: 100%;
 }
 
 .precioCatalogo {
-    font-size: 1vw;
-    padding: 0.1em;
+  font-size: 1vw;
+  padding: 0.1em;
 }
 
 .fotoCatalogo {
-    width: 250px !important;
-    height: 230px !important;
-    max-width: 100% !important;
-    max-height: 100% !important;
+  width: 250px !important;
+  height: 230px !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
 }
 
 
@@ -973,4 +975,32 @@ footer.page-footer {
     position: relative;
     bottom: 35px;
     width: 100px;
+}
+
+/* Detalle */
+
+#descripcion {
+  font-weight: bold;
+}
+#precioDetalle {
+  font-size: 3em;
+  font-weight: lighter;
+}
+#envioDetalle {
+  font-size: 1.3em;
+  position: relative;
+  top: 22px;
+}
+#envioIcono {
+  position: relative;
+  top: 5px;
+}
+#inputCantidad {
+  border-radius: 0em;
+  color: black;
+  border-color: #389a4f;
+  width: 100%;
+}
+.imagenDetalle {
+  width: 3%;
 }
