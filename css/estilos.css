@@ -764,8 +764,25 @@ footer.page-footer {
     margin-top: 2em;
 }
 
+.tiny-contador {
+    font-size: 1.2rem;
+}
+
 .small-contador {
     font-size: 3rem;
+}
+
+.boton-contador {
+    margin-bottom: 1rem!important;
+    font-size: 1rem!important;
+}
+
+.mc-1 {
+    margin: auto 1px;
+}
+
+.m-auto {
+    margin: auto!important;
 }
 
 
