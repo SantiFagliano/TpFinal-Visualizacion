@@ -368,6 +368,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .total h4 {
+        font-size: 1.5em;
+    }
     .mainConoceComo .tituloMaterial {
         font-size: 2.3em;
     }
@@ -552,9 +555,22 @@ footer.page-footer {
         font-size: 4.5em;
         margin-top: 0;
     }
+    .sucursalesBanner .parallax-container .parallax img {
+        bottom: 10% !important;
+    }
+    .sucursalesBanner .parallax-container .titulo_Slider {
+        padding-top: 0;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
+    .sucursalesBanner .parallax-container .parallax img {
+        top: 0% !important;
+        left: 50% !important;
+    }
+    .sucursalesBanner .parallax-container .titulo_Slider {
+        padding-top: 1em;
+    }
     .titulo_Slider {
         font-size: 4em;
     }
@@ -689,6 +705,9 @@ footer.page-footer {
 }
 
 @media only screen and (max-width: 375px) {
+    .botonCompra {
+        margin-right: 0.08em;
+    }
     .titulo_Slider {
         font-size: 2.1em;
     }
