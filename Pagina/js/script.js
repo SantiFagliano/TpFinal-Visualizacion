@@ -73,3 +73,7 @@ function mostrarMapaSalta() {
     document.getElementById("neuquen").setAttribute("class", "waves-effect waves-light btn #a5d6a7 green lighten-3");
 
 }
+
+$(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
