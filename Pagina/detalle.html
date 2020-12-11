@@ -42,46 +42,60 @@
     </header>
 
     <main class="mainProductos">
-        <nav class="no-shadows" role="navigation">
-            <div class="nav-wrapper no-shadows" id="barraCategorias">
-                <ul class="right hide-on-med-and-down barraCategorias">
-                    <li>
-                        <a href="carritoCompras.html"><i
-                                class="material-icons black-text text-darken-2 objetoCategorias">shopping_cart</i></a>
-                    </li>
-                    <li>
-                        <a href="#"><a id="miCuenta" class="waves-effect waves-light btn objetoCategorias">Mi
-                                cuenta</a></a>
-                    </li>
-                </ul>
-
-
-                <ul id="nav-mobile2" class="sidenav">
-                    <li><a class="a_menu" href="#">Bolsas</a></li>
-                    <li><a class="a_menu" href="#">Botellas</a></li>
-                    <li><a class="a_menu" href="#">Cacatubos</a></li>
-                    <li><a class="a_menu" href="#">Guardados</a></li>
-                    <li><a class="a_menu" href="#">Carrito</a></li>
-                    <li><a class="a_menu" href="#">Mi cuenta</a></li>
-                </ul>
-
-                <a href="#" data-target="nav-mobile2" class="right sidenav-trigger"><i
-                        class="black-text material-icons green-text">settings</i></a>
+        <br>
+        <br>
+        <br>
+        <nav>
+            <div class="nav-wrapper" id="breadcrumbs">
+                <div class="col s12">
+                    <a href="index.html" class="breadcrumb">Inicio</a>
+                    <a href="productos.html" class="breadcrumb">Producto</a>
+                    <a href="detalle.html" class="breadcrumb">Vaso Térmico</a>
+                </div>
             </div>
         </nav>
+
+        <!--<nav class="no-shadows" role="navigation">-->
+        <div class="nav-wrapper no-shadows" id="barraCategorias">
+            <div class="barraCategorias">
+                <div class="row">
+                    <div class="col right">
+                        <a href="carritoCompras.html" class="waves-effect waves-light btn green"><i class="fas fa-shopping-cart ml2" style="margin-right: 1em;"></i>Ir al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--<ul id="nav-mobile2" class="sidenav">
+                <li><a class="a_menu" href="#">Bolsas</a></li>
+                <li><a class="a_menu" href="#">Botellas</a></li>
+                <li><a class="a_menu" href="#">Cacatubos</a></li>
+                <li><a class="a_menu" href="#">Guardados</a></li>
+                <li><a class="a_menu" href="#">Carrito</a></li>
+                <li><a class="a_menu" href="#">Mi cuenta</a></li>
+            </ul>
+
+            <a href="#" data-target="nav-mobile2" class="right sidenav-trigger"><i
+                        class="black-text material-icons green-text">settings</i></a>
+        </div>
+        </nav>-->
         <br><br><br><br>
-        <script> document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.materialboxed');
-            var instances = M.Materialbox.init(elems, options);
-          });</script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.materialboxed');
+                var instances = M.Materialbox.init(elems, options);
+            });
+        </script>
 
         <section id="objetoDetalle">
+
             <div class="row container ">
 
                 <div class="col m1">
                 </div>
 
-            <div class="col s2 m1 center">
+                <div class="col s2 m1 center">
                     <img class="responsive-img materialboxed" id="foto1" src="img/vasotermico.jpg" alt="Vaso - Termico - Bambú">
                     <img class="responsive-img materialboxed" id="tapaVaso" src="img/tapaVaso.jpg" alt="Vaso - Termico - Bambú">
                 </div>
@@ -91,36 +105,24 @@
                 </div>
                 <div class="col s12 m4">
                     <div class="row">
-                        <h4 class="center-align">Vaso termico</h4>
-                        <p><span id="descripcion">Descripción: </span>Vaso termico biodegradable hecho de fibra de bambú. Mantiene caliente las bebidas. Incluye tapa.</p>
-                        <p><span id="capacidad">Capacidad: </span>350ml</p>
+                        <h4 class="center-align">Vaso térmico</h4>
+                        <p><span id="descripcion">Descripción: </span>Vaso térmico biodegradable hecho de fibra de bambú. Mantiene caliente las bebidas. Incluye tapa.</p>
+                        <p><span id="capacidad">Capacidad: </span>350 ml.</p>
                         <p><span id="material">Material: </span>Fibra de bambú</p>
-                        <p><span id="altura">Altura: </span>14 cm</p>
+                        <p><span id="altura">Altura: </span>14 cm.</p>
                     </div>
+
                     <div class="row">
                         <div class="col s12 m6">
-                            <span id="precioDetalle" class="green-text left">$360</span>
-                        </div>
-                        <div class="col s12 m6">
-                            <span id="envioDetalle" class="green-text right">Envio gratis <i id="envioIcono"
-                                    class="material-icons">motorcycle</i></span>
+                            <span id="precioDetalle" class="green-text left">$ 360</span>
                         </div>
                     </div>
 
-                    <br>
-                    <div class="row">
-                        <div class="col s3 m3 center">
-                            <a class="btn-floating btn waves-effect waves-light green"><i
-                                    class="material-icons">remove</i></a>
-                        </div>
-                        <div class="col s6 m6 center">
-                            <input id="inputCantidad" class="black-text" placeholder="Cantidad" type="number" />
-                        </div>
-                        <div class="col s3 m3 center">
-                            <a class="btn-floating btn waves-effect waves-light green"><i
-                                    class="material-icons">add</i></a>
-                        </div>
-                    </div>
+                    <span id="envioDetalle" class="green-text left">Envío gratis <i id="envioIcono"
+                                class="material-icons">motorcycle</i></span>
+                    <input id="inputCantidad" class="black-text" placeholder="Código postal" type="number" />
+                    <a class="waves-effect waves-light btn green" style="margin-bottom: 2em;">Calcular</a>
+
                     <div class="row">
                         <div class="col s12 m12 center">
                             <a class="waves-effect waves-light btn-large green" href="carritoCompras.html"><i

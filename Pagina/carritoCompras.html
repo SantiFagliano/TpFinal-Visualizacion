@@ -42,11 +42,13 @@
     </header>
     <main>
         <section class="container mt-1">
-            <div class="col s12">
+            <div class="col s6">
                 <ul class="tabs">
                     <li class="tab col s3 black-text border-buttom-carrito"><a href="" class="black-text">Carrito
                             (3)</a></li>
+                    <li class="tab col s3 black-text border-buttom-carrito right"><a href="productos.html" class="green-text">Ver más productos</a></li>
                 </ul>
+            </div>
             </div>
             <article>
                 <div class="row">
@@ -71,7 +73,9 @@
                         </div>
                         <div class="col s6 m3 mt-1-carrito">
                             <h4 class="">$ 100</h4>
-
+                        </div>
+                        <div class="col s6 m3 mt-1-carrito">
+                            <a href="index.html"><i class="fas fa-trash" style="color: green; font-size: 1.5em;"></i></a>
                         </div>
                     </div>
 
@@ -101,6 +105,9 @@
                         <div class="col s6 m3 mt-1-carrito">
                             <h4 class="">$ 70</h4>
                         </div>
+                        <div class="col s6 m3 mt-1-carrito">
+                            <a href="index.html"><i class="fas fa-trash" style="color: green; font-size: 1.5em;"></i></a>
+                        </div>
                     </div>
 
                 </div>
@@ -124,33 +131,38 @@
                             <a class="boton-contador btn-floating btn-small waves-effect waves-light green mc-1">
                                 <i class="material-icons">add</i>
                             </a>
-
-
                         </div>
                         <div class="col s6 m3 mt-1-carrito">
                             <h4 class="">$ 60</h4>
+                        </div>
+                        <div class="col s6 m3 mt-1-carrito">
+                            <a href="index.html"><i class="fas fa-trash" style="color: green; font-size: 1.5em;"></i></a>
                         </div>
                     </div>
                 </div>
                 <hr>
             </article>
             <article class="row">
-                <div class="col s6"></div>
+                <div class="col s6 codigoPostal">
+                    <h7>Ingrese su código postal para calcular el envío</h7>
+                    <input id="inputCantidad2" class="black-text" placeholder="Código postal" type="number" /> <br>
+                    <a class="waves-effect waves-green lighten-1 btn green" style="margin-top: 1em;">Calcular</a>
+                </div>
                 <div class="col s6 ">
                     <div class="row">
                         <div class="col s6">
-                            <h6>Envio a Florencio Varela 1903, San Justo</h6>
+                            <h6>Envio para el CP: 1754</h6>
                         </div>
                         <div class="col s6">
-                            <h6 class="green-text">$ 200</h6>
+                            <h6>$ 200</h6>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col s6 total">
-                            <h4>Total con envio: </h4>
+                            <h4 class="green-text">TOTAL: </h4>
                         </div>
                         <div class="col s6 precioTotal">
-                            <h4 class="">$ 430</h4>
+                            <h4 class="green-text">$ 430</h4>
                         </div>
                     </div>
                     <div class="row">
