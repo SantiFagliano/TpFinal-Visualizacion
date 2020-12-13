@@ -490,6 +490,10 @@ footer.page-footer {
     .titulo_Slider {
         font-size: 5em;
     }
+    .combos_Informacion p {
+        color: green;
+        font-size: 1.5em;
+    }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -746,7 +750,7 @@ footer.page-footer {
     }
     .combos_Informacion p {
         margin-top: 24px;
-        font-size: 1.7em;
+        font-size: 1.2em;
     }
 }
 
@@ -792,7 +796,7 @@ footer.page-footer {
     }
     .combos_Informacion p {
         margin-top: 24px;
-        font-size: 1.2em;
+        font-size: 1.02em;
     }
     .parallax-container .parallax img {
         left: 20% !important;
