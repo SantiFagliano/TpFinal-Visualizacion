@@ -335,6 +335,10 @@
     max-width: 100%;
 }
 
+.envio {
+    padding-top: 1.8em;
+}
+
 @media only screen and (max-width: 425px) {
     .mainConoceComo .tituloMaterial {
         font-size: 2em;
@@ -466,6 +470,22 @@ footer.page-footer {
     opacity: 0.5 !important;
 }
 
+.seleccionLocal .select-wrapper {
+    width: 21em !important;
+}
+
+.seleccionLocal .select-wrapper input.select-dropdown {
+    width: 20em !important;
+    padding: 0.1em !important;
+    border-color: #4caf50;
+    border-radius: 0% !important;
+    margin: 0% !important;
+}
+
+.codigoPostal {
+    margin-top: 2em;
+}
+
 @media only screen and (max-width: 2880px) {
     .titulo_Slider {
         font-size: 5em;
@@ -566,6 +586,12 @@ footer.page-footer {
     .sucursalesBanner .parallax-container .titulo_Slider {
         padding-top: 0;
     }
+    .puntosVenta h6 {
+        background-color: #4caf50;
+        color: white;
+        padding: 2em;
+        border-radius: 1em;
+    }
     .titulo_contacto {
         margin-top: 1.5em;
     }
@@ -662,6 +688,21 @@ footer.page-footer {
 }
 
 @media only screen and (max-width: 1024px) {
+    .envio {
+        padding-top: 2em;
+    }
+    .seleccionLocal .select-wrapper {
+        width: 16em !important;
+    }
+    .seleccionLocal .select-wrapper input.select-dropdown {
+        width: 15em !important;
+    }
+    .codigoPostal input {
+        width: 15em !important;
+    }
+    .codigoPostal h7 {
+        font-size: 0.8em;
+    }
     .sucursalesBanner .parallax-container .parallax img {
         top: 0% !important;
         left: 50% !important;
@@ -833,6 +874,15 @@ footer.page-footer {
 }
 
 @media only screen and (max-width: 320px) {
+    .seleccionLocal .select-wrapper {
+        width: 20em !important;
+    }
+    .seleccionLocal .select-wrapper input.select-dropdown {
+        width: 17em !important;
+    }
+    .codigoPostal input {
+        width: 18em !important;
+    }
     .titulo_Slider {
         font-size: 2.3em;
     }
@@ -910,10 +960,6 @@ footer.page-footer {
     margin-bottom: 0.7em;
 }
 
-.codigoPostal {
-    margin-top: 2em;
-}
-
 #barraCategorias {
     background-color: transparent;
     border-radius: 0em;
@@ -955,7 +1001,7 @@ footer.page-footer {
 }
 
 #breadcrumbs {
-    background-color: green !important;
+    background-color: #4caf50 !important;
     padding-left: 4.5em;
 }
 
@@ -1144,4 +1190,20 @@ footer.page-footer {
     margin-top: 1.3em;
     width: 90%;
     border-radius: 0.3em;
+}
+
+.arriba {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #389a4f;
+    border-radius: 50%;
+    background-size: cover;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 100;
+    transition: 1s;
+    color: white;
+    font-size: 2em;
 }

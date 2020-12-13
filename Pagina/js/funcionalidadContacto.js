@@ -7,7 +7,7 @@ function validar() {
     var mensajeError = "";
     if (document.getElementById("nombre").value == '') {
         error = true;
-        mensajeError += "<p>El campo 'Nombre y Apellido/s' no puede estar vacio</p>";
+        mensajeError += "<p>El campo 'Nombre' no puede estar vacio</p>";
     }
 
     if (!regexCampoTel.test(document.getElementById("telefono").value)) {

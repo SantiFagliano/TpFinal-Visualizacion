@@ -2,7 +2,6 @@
 <html lang="es">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Carrito - BIO MOUNTAIN</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
@@ -12,7 +11,16 @@
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="favicon-32x32" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="favicon-16x16" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <script src="js/materialize.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/script.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('select').formSelect();
+        });
+    </script>
 </head>
 
 <body>
@@ -41,6 +49,18 @@
         </nav>
     </header>
     <main>
+        <br>
+        <br>
+        <br>
+        <nav>
+            <div class="nav-wrapper" id="breadcrumbs">
+                <div class="col s12">
+                    <a href="index.html" class="breadcrumb">Inicio</a>
+                    <a href="productos.html" class="breadcrumb">Productos</a>
+                    <a href="carritoCompras.html" class="breadcrumb">Carrito</a>
+                </div>
+            </div>
+        </nav>
         <section class="container mt-1">
             <div class="col s6">
                 <ul class="tabs">
@@ -57,22 +77,22 @@
                     </div>
                     <div class="col s9 m10">
                         <div class="col s12 m6">
-                            <h4>Bowl simple</h4>
-                            <h6>Bowl simple para comida.</h6>
+                            <h5>Bowl simple</h5>
+                            <h7>Bowl simple para comida.</h7>
                         </div>
                         <div class="col s6 m3 mt-1-carrito">
                             <a class="boton-contador btn-floating btn-small waves-effect waves-light green mc-1">
                                 <i class="material-icons">remove</i>
                             </a>
 
-                            <span class="small-contador mc-1">2</span>
+                            <span class="small-contador mc-1" style="font-size: 2em;">2</span>
 
                             <a class="boton-contador btn-floating btn-small waves-effect waves-light green mc-1">
                                 <i class="material-icons">add</i>
                             </a>
                         </div>
                         <div class="col s6 m3 mt-1-carrito">
-                            <h4 class="">$ 100</h4>
+                            <h5 class="">$ 100</h5>
                         </div>
                         <div class="col s6 m3 mt-1-carrito">
                             <a href="index.html"><i class="fas fa-trash" style="color: green; font-size: 1.5em;"></i></a>
@@ -88,22 +108,22 @@
                     </div>
                     <div class="col s9 m10">
                         <div class="col s12 m6">
-                            <h4>Bandeja doble</h4>
-                            <h6>Bandeja doble con separación.</h6>
+                            <h5>Bandeja doble</h5>
+                            <h7>Bandeja doble con separación.</h7>
                         </div>
                         <div class="col s6 m3 mt-1-carrito">
                             <a class="boton-contador btn-floating btn-small waves-effect waves-light green mc-1">
                                 <i class="material-icons">remove</i>
                             </a>
 
-                            <span class="small-contador mc-1">1</span>
+                            <span class="small-contador mc-1" style="font-size: 2em;">1</span>
 
                             <a class="boton-contador btn-floating btn-small waves-effect waves-light green mc-1">
                                 <i class="material-icons">add</i>
                             </a>
                         </div>
                         <div class="col s6 m3 mt-1-carrito">
-                            <h4 class="">$ 70</h4>
+                            <h5 class="">$ 70</h5>
                         </div>
                         <div class="col s6 m3 mt-1-carrito">
                             <a href="index.html"><i class="fas fa-trash" style="color: green; font-size: 1.5em;"></i></a>
@@ -118,22 +138,22 @@
                     </div>
                     <div class="col s9 m10">
                         <div class="col s12 m6">
-                            <h4>Botella simple</h4>
-                            <h6>Botella simple biodegradable.</h6>
+                            <h5>Botella simple</h5>
+                            <h7>Botella simple biodegradable.</h7>
                         </div>
                         <div class="col s6 m3 mt-1-carrito">
                             <a class="boton-contador btn-floating btn-small waves-effect waves-light green mc-1">
                                 <i class="material-icons">remove</i>
                             </a>
 
-                            <span class="small-contador mc-1">1</span>
+                            <span class="small-contador mc-1" style="font-size: 2em;">1</span>
 
                             <a class="boton-contador btn-floating btn-small waves-effect waves-light green mc-1">
                                 <i class="material-icons">add</i>
                             </a>
                         </div>
                         <div class="col s6 m3 mt-1-carrito">
-                            <h4 class="">$ 60</h4>
+                            <h5 class="">$ 60</h5>
                         </div>
                         <div class="col s6 m3 mt-1-carrito">
                             <a href="index.html"><i class="fas fa-trash" style="color: green; font-size: 1.5em;"></i></a>
@@ -142,19 +162,47 @@
                 </div>
                 <hr>
             </article>
+
+
             <article class="row">
-                <div class="col s6 codigoPostal">
-                    <h7>Ingrese su código postal para calcular el envío</h7>
-                    <input id="inputCantidad2" class="black-text" placeholder="Código postal" type="number" /> <br>
-                    <a class="waves-effect waves-green lighten-1 btn green" style="margin-top: 1em;">Calcular</a>
-                </div>
-                <div class="col s6 ">
+                <div class="col s12 m4 l2 codigoPostal">
                     <div class="row">
+                        <h7>Ingrese su código postal para calcular el envío</h7>
+                        <input id="inputCantidad2" class="black-text" placeholder="Código postal" type="number" /> <br>
+                        <a class="waves-effect waves-green lighten-1 btn green" style="margin-top: 1em;">Calcular</a>
+                    </div>
+                    <div class="row">
+                        <a href="https://www.correoargentino.com.ar/formularios/cpa" style="color: #4caf50;">
+                            <h7>No se mi código postal</h7>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col s12 m4 l2">
+                    <div class="input-field seleccionLocal">
+                        <div style="margin-top: 2em;">
+                            <h7>Seleccione el local donde quiera retirar</h7>
+                            <h6 style="color: green;">GRATIS</h6>
+                        </div>
+                        <select>
+                          <option value="" disabled selected class="select">Elija su local más cercano</option>
+                          <option value="1" class="select">CABA</option>
+                          <option value="2" class="select">Jujuy</option>
+                          <option value="3" class="select">Chubut</option>
+                          <option value="4" class="select">Mendoza</option>
+                          <option value="5" class="select">Neuquén</option>
+                          <option value="6" class="select">Salta</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col s12 m4 l2">
+                    <div class="row envio">
                         <div class="col s6">
-                            <h6>Envio para el CP: 1754</h6>
+                            <h6 style>Envio</h6>
                         </div>
                         <div class="col s6">
-                            <h6>$ 200</h6>
+                            <h6 style="color: green;">GRATIS</h6>
                         </div>
                     </div>
                     <div class="row">
@@ -169,9 +217,9 @@
                         <div class="col s6">
                         </div>
                         <div class="col s6 botonCompra">
-                            <a class="waves-effect waves-green lighten-1 btn green"><i
+                            <a href="https://www.mercadopago.com.ar/home" class="waves-effect waves-green lighten-1 btn green"><i
                                     class="material-icons right">shopping_cart
-                                </i>Realizar Compra</a>
+                                </i>Comprar</a>
 
                         </div>
                     </div>
@@ -216,10 +264,7 @@
     </footer>
 
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="js/materialize.min.js "></script>
-    <script src="js/materialize.js "></script>
-    <script src="js/script.js"></script>
+
 </body>
 
 </html>
