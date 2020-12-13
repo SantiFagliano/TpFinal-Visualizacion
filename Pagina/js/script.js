@@ -74,6 +74,6 @@ function mostrarMapaSalta() {
 
 }
 
-$(document).ready(function(){
+$(document).ready(function() {
     $('.materialboxed').materialbox();
-  });
+});
