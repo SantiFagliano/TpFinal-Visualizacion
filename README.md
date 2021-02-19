@@ -1,6 +1,6 @@
 # BioMountain 📦🌿
 
-Este es un boceto de una pagina informativa y ecommerce, sobre packaging biodegradable.
+Este es un boceto de una pagina informativa y ecommerce, sobre packaging biodegradable. 
 ## Tecnologías usadas:
 * HTML
 * CSS
